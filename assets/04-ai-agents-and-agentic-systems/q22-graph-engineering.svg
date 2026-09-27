@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" width="900" height="530" role="img" aria-label="Graph engineering: a support-ticket graph">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="528" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Graph engineering: a support-ticket graph</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The model thinks inside nodes; code reads the state and picks every edge, caps every cycle, and checkpoints after each node.</text>
+<rect x="36.0" y="230.0" width="96" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="84.0" y="250.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Ticket</text>
+<path d="M132.0,250.0 L160.0,250.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="162" y="214" width="150" height="72" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="162" y="214" width="6" height="72" rx="3" fill="#6D4AE0"/>
+<text x="240.0" y="242.2" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Classify</text>
+<text x="240.0" y="255.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">LLM sets category</text>
+<text x="237.0" y="304.0" font-size="11" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">code reads it, picks the edge</text>
+<path d="M312,250 H334" fill="none" stroke="#667085" stroke-width="2"/>
+<path d="M334.0,250.0 L334.0,136.0 L406.0,136.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M334.0,250.0 L406.0,250.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M334.0,250.0 L334.0,392.0 L406.0,392.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="372.0" y="124.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">billing</text>
+<text x="372.0" y="238.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">technical</text>
+<text x="372.0" y="380.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">legal</text>
+<rect x="408" y="110" width="140" height="52" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="408" y="110" width="6" height="52" rx="3" fill="#2F6FE4"/>
+<text x="481.0" y="136.0" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Billing node</text>
+<rect x="408" y="220" width="140" height="60" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="408" y="220" width="6" height="60" rx="3" fill="#2F6FE4"/>
+<text x="481.0" y="250.0" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tech node</text>
+<rect x="408" y="364" width="140" height="56" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="408" y="364" width="6" height="56" rx="3" fill="#1F3864"/>
+<text x="481.0" y="392.0" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human review</text>
+<path d="M548.0,136.0 L664.0,136.0 L664.0,164.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<path d="M548.0,234.0 L580.0,234.0 L580.0,192.0 L597.0,192.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<polygon points="624.0,165.0 704.0,165.0 731.0,192.0 704.0,219.0 624.0,219.0 597.0,192.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="664.0" y="192.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Grounded check</text>
+<path d="M731.0,192.0 L760.0,192.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="745.0" y="180.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">pass</text>
+<rect x="762.0" y="172.0" width="114" height="40" rx="20.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="819.0" y="192.0" font-size="12.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Send reply</text>
+<path d="M640.0,219.0 L640.0,266.0 L550.0,266.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mC98A06)"/>
+<text x="596.0" y="282.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">fail, retries &lt; 2</text>
+<path d="M690.0,219.0 L690.0,392.0 L550.0,392.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<text x="700.0" y="330.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">fail twice</text>
+<rect x="30" y="444" width="840" height="66" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="48.0" y="477.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Typed state</text>
+<rect x="150" y="464" width="88" height="26" rx="13" fill="#E8EEF8" stroke="#1F3864"/>
+<text x="194.0" y="477.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">ticket</text>
+<rect x="248" y="464" width="88" height="26" rx="13" fill="#F1ECFF" stroke="#6D4AE0"/>
+<text x="292.0" y="477.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">category</text>
+<rect x="346" y="464" width="88" height="26" rx="13" fill="#E7F0FF" stroke="#2F6FE4"/>
+<text x="390.0" y="477.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">draft</text>
+<rect x="444" y="464" width="88" height="26" rx="13" fill="#FFF4D6" stroke="#C98A06"/>
+<text x="488.0" y="477.0" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">retries</text>
+<text x="560.0" y="477.0" font-size="11.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">checkpoint after each node:</text>
+<text x="560.0" y="494.0" font-size="11" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">pause for approval, resume, replay</text>
+</svg>

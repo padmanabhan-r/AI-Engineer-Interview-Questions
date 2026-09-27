@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 650" width="840" height="650" role="img" aria-label="One forward pass, decoder-only Transformer">
+<defs><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="838" height="648" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">One forward pass, decoder-only Transformer</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The residual stream x carries every token through L identical blocks; each sublayer reads it and adds back.</text>
+<rect x="115.0" y="82.0" width="190" height="36" rx="18.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="210.0" y="100.0" font-size="12.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">Token IDs  [B, T]</text>
+<path d="M210.0,118.0 L210.0,140.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="115" y="142" width="190" height="40" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="115" y="142" width="6" height="40" rx="3" fill="#0E8C7E"/>
+<text x="213.0" y="162.0" font-size="14" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Embedding</text>
+<text x="196.0" y="198.0" font-size="11" font-weight="400" fill="#667085" text-anchor="end" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">x: [B, T, d]</text>
+<line x1="210" y1="182" x2="210" y2="492" stroke="#9DB7E8" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
+<rect x="92" y="208" width="726" height="262" rx="16" fill="#F1ECFF" fill-opacity="0.45" stroke="#6D4AE0" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="802.0" y="454.0" font-size="12.5" font-weight="700" fill="#3B2596" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">× L blocks</text>
+<path d="M196.0,452.0 L112.0,452.0 L112.0,226.0 L196.0,226.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m6D4AE0)"/>
+<text x="126.0" y="339.0" font-size="11" font-weight="600" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">next block</text>
+<path d="M210.0,262.0 L262.0,262.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="263.0" y="247.0" width="84" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="305.0" y="262.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">RMSNorm</text>
+<path d="M347.0,262.0 L368.0,262.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="370" y="228" width="240" height="70" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="370" y="228" width="6" height="70" rx="3" fill="#6D4AE0"/>
+<text x="493.0" y="247.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Causal self-attention</text>
+<text x="493.0" y="260.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">softmax(QKᵀ/√dₕ + mask)·V</text>
+<text x="493.0" y="276.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">RoPE on Q, K · heads → W_O</text>
+<path d="M490.0,298.0 L490.0,330.0 L224.0,330.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<circle cx="210" cy="330" r="12" fill="#FFFFFF" stroke="#6D4AE0" stroke-width="2"/>
+<path d="M204.0,330 H216.0 M210,324.0 V336.0" stroke="#6D4AE0" stroke-width="2.2" stroke-linecap="round"/>
+<rect x="660" y="228" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="682" y="228" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="704" y="228" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="726" y="228" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="748" y="228" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="660" y="250" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="682" y="250" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="704" y="250" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="726" y="250" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="748" y="250" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="660" y="272" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="682" y="272" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="704" y="272" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="726" y="272" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="748" y="272" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="660" y="294" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="682" y="294" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="704" y="294" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="726" y="294" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="748" y="294" width="20" height="20" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="660" y="316" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="682" y="316" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="704" y="316" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="726" y="316" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="748" y="316" width="20" height="20" rx="3" fill="#6D4AE0" fill-opacity="0.8" stroke="#6D4AE0" stroke-width="1"/>
+<text x="714.0" y="350.0" font-size="11.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">causal mask</text>
+<text x="714.0" y="366.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">token t sees only ≤ t</text>
+<path d="M210.0,385.0 L262.0,385.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="263.0" y="370.0" width="84" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="305.0" y="385.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">RMSNorm</text>
+<path d="M347.0,385.0 L368.0,385.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="370" y="356" width="240" height="58" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="370" y="356" width="6" height="58" rx="3" fill="#C98A06"/>
+<text x="493.0" y="377.2" font-size="14" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">SwiGLU feed-forward</text>
+<text x="493.0" y="390.5" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">d → ≈ 8/3·d → d, per position</text>
+<path d="M490.0,414.0 L490.0,440.0 L224.0,440.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<circle cx="210" cy="440" r="12" fill="#FFFFFF" stroke="#C98A06" stroke-width="2"/>
+<path d="M204.0,440 H216.0 M210,434.0 V446.0" stroke="#C98A06" stroke-width="2.2" stroke-linecap="round"/>
+<rect x="115.0" y="491.0" width="190" height="34" rx="17.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="210.0" y="508.0" font-size="12.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Final RMSNorm</text>
+<path d="M210.0,525.0 L210.0,546.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="100" y="548" width="220" height="52" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="100" y="548" width="6" height="52" rx="3" fill="#3E8E2F"/>
+<text x="213.0" y="566.2" font-size="14" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Unembed · W_U</text>
+<text x="213.0" y="579.5" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.85">logits  [B, T, V]</text>
+<path d="M320.0,562.0 L400.0,548.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<path d="M320.0,586.0 L400.0,600.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="402" y="520" width="410" height="50" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="402" y="520" width="6" height="50" rx="3" fill="#3E8E2F"/>
+<text x="610.0" y="537.2" font-size="13" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Training</text>
+<text x="610.0" y="549.6" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">cross-entropy: position t vs token t+1, all at once</text>
+<rect x="402" y="580" width="410" height="50" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="402" y="580" width="6" height="50" rx="3" fill="#2F6FE4"/>
+<text x="610.0" y="597.2" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Inference</text>
+<text x="610.0" y="609.6" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">sample from the last position only; append K, V to cache</text>
+</svg>

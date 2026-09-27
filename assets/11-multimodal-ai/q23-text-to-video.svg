@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" role="img" aria-label="Text-to-video with a diffusion transformer">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="418" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Text-to-video with a diffusion transformer</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A video VAE compresses the clip; a transformer denoises spacetime patches jointly, which keeps frames consistent.</text>
+<rect x="30" y="98" width="170" height="56" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="30" y="98" width="6" height="56" rx="3" fill="#1F3864"/>
+<text x="118.0" y="118.2" font-size="14" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Prompt</text>
+<text x="118.0" y="131.5" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">+ reference image</text>
+<path d="M200.0,126.0 L248.0,126.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="250" y="94" width="170" height="64" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="250" y="94" width="6" height="64" rx="3" fill="#2F6FE4"/>
+<text x="338.0" y="110.5" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Encoders</text>
+<text x="338.0" y="123.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">T5-class or LLM text</text>
+<text x="338.0" y="139.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">+ image encoder</text>
+<rect x="92" y="220" width="110" height="70" rx="4" fill="#F2F4F7" stroke="#667085" stroke-width="1.4"/>
+<rect x="78" y="230" width="110" height="70" rx="4" fill="#F2F4F7" stroke="#667085" stroke-width="1.4"/>
+<rect x="64" y="240" width="110" height="70" rx="4" fill="#F2F4F7" stroke="#667085" stroke-width="1.4"/>
+<rect x="50" y="250" width="110" height="70" rx="4" fill="#F2F4F7" stroke="#667085" stroke-width="1.4"/>
+<line x1="77.5" y1="250" x2="77.5" y2="320" stroke="#667085" stroke-opacity="0.5"/>
+<line x1="105.0" y1="250" x2="105.0" y2="320" stroke="#667085" stroke-opacity="0.5"/>
+<line x1="132.5" y1="250" x2="132.5" y2="320" stroke="#667085" stroke-opacity="0.5"/>
+<line x1="50" y1="273.3" x2="160" y2="273.3" stroke="#667085" stroke-opacity="0.5"/>
+<line x1="50" y1="296.6" x2="160" y2="296.6" stroke="#667085" stroke-opacity="0.5"/>
+<circle cx="87.0" cy="263.4" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="120.4" cy="258.5" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="108.7" cy="276.7" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="59.9" cy="285.5" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="57.8" cy="280.9" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="61.1" cy="259.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="97.3" cy="305.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="66.6" cy="267.8" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="118.0" cy="312.8" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="112.9" cy="278.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="153.6" cy="256.9" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="141.6" cy="272.0" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="68.7" cy="261.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="85.5" cy="304.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="72.4" cy="290.1" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="119.2" cy="277.1" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="109.9" cy="257.9" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="60.1" cy="266.8" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="123.4" cy="280.5" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="86.0" cy="290.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="100.2" cy="272.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="135.0" cy="297.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="78.9" cy="289.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="107.6" cy="308.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="128.4" cy="271.9" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="154.0" cy="261.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="96.6" cy="300.9" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="69.5" cy="284.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="58.0" cy="295.4" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="132.0" cy="289.5" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="143.3" cy="273.5" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="124.9" cy="290.9" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="113.1" cy="282.3" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="139.7" cy="312.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="102.4" cy="295.2" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="60.2" cy="297.5" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="120.0" cy="315.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="137.8" cy="271.6" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="93.4" cy="295.5" r="1.3" fill="#667085" opacity="0.45"/>
+<circle cx="56.3" cy="282.6" r="1.3" fill="#667085" opacity="0.45"/>
+<rect x="77.5" y="273.3" width="27.5" height="23.3" fill="#6D4AE0" fill-opacity="0.35" stroke="#6D4AE0" stroke-width="1.4"/>
+<text x="126.0" y="346.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">noise in a spacetime latent,</text>
+<text x="126.0" y="363.0" font-size="11" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">cut into spacetime patches</text>
+<rect x="440" y="170" width="200" height="120" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="440" y="170" width="6" height="120" rx="3" fill="#6D4AE0"/>
+<text x="543.0" y="207.7" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Diffusion transformer</text>
+<text x="543.0" y="221.0" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">denoises all patches jointly</text>
+<text x="543.0" y="235.9" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">attention across frames</text>
+<text x="543.0" y="250.7" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">diffusion or flow matching</text>
+<path d="M420.0,126.0 L540.0,126.0 L540.0,168.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<path d="M218.0,262.0 L438.0,262.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M640.0,230.0 L678.0,230.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="680" y="195" width="170" height="70" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="680" y="195" width="6" height="70" rx="3" fill="#0E8C7E"/>
+<text x="768.0" y="222.2" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Video VAE decoder</text>
+<text x="768.0" y="235.1" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">3D, often causal</text>
+<path d="M765.0,265.0 L765.0,300.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="680.0" y="302.0" width="170" height="36" rx="18.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="765.0" y="320.0" font-size="12" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Clip, then upscale</text>
+<text x="30.0" y="398.0" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Still fails on physics, object permanence and long-range consistency; deepfake risk needs watermarking and C2PA provenance.</text>
+</svg>

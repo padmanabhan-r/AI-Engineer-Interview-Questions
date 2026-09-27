@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-label="Plan-and-Execute">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="468" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Plan-and-Execute</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Plan the whole task up front, execute step by step, replan only on surprise. Best when the task&#x27;s structure is knowable in advance.</text>
+<rect x="33.0" y="110.0" width="110" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="88.0" y="130.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Task</text>
+<path d="M143.0,130.0 L170.0,130.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="172" y="100" width="150" height="60" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="172" y="100" width="6" height="60" rx="3" fill="#6D4AE0"/>
+<text x="250.0" y="122.2" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Planner</text>
+<text x="250.0" y="135.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">strongest model</text>
+<path d="M322.0,130.0 L368.0,130.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="370" y="88" width="162" height="176" rx="16" fill="#F1ECFF" fill-opacity="0.45" stroke="#6D4AE0" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="386.0" y="106.0" font-size="12.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Plan</text>
+<rect x="386" y="115" width="130" height="26" rx="7" fill="#E8F5E1" stroke="#3E8E2F" stroke-opacity="0.7"/>
+<text x="398.0" y="128.0" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">step 1  ✓ done</text>
+<rect x="386" y="149" width="130" height="26" rx="7" fill="#E8F5E1" stroke="#3E8E2F" stroke-opacity="0.7"/>
+<text x="398.0" y="162.0" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">step 2  ✓ done</text>
+<rect x="386" y="183" width="130" height="26" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-opacity="0.7"/>
+<text x="398.0" y="196.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">step 3  ◂ now</text>
+<rect x="386" y="217" width="130" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-opacity="0.7"/>
+<text x="398.0" y="230.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">step 4</text>
+<path d="M532.0,196.0 L578.0,196.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="580" y="160" width="172" height="72" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="580" y="160" width="6" height="72" rx="3" fill="#2F6FE4"/>
+<text x="669.0" y="180.5" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Executor: step i</text>
+<text x="669.0" y="193.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">small model, ReAct loop</text>
+<text x="669.0" y="208.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">or plain code</text>
+<path d="M666.0,232.0 L666.0,266.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="678.0" y="249.0" font-size="11" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">sees only its step + inputs</text>
+<polygon points="666,268.0 730.0,306 666,344.0 602.0,306" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="666.0" y="306.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">On track?</text>
+<path d="M602.0,306.0 L552.0,306.0 L552.0,230.0 L534.0,230.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="566.0" y="322.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">next step</text>
+<path d="M666.0,344.0 L666.0,382.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="676.0" y="362.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">surprise</text>
+<rect x="580" y="384" width="172" height="60" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="580" y="384" width="6" height="60" rx="3" fill="#C98A06"/>
+<text x="669.0" y="406.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Replanner</text>
+<text x="669.0" y="419.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">revises remaining steps</text>
+<path d="M580.0,414.0 L450.0,414.0 L450.0,266.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="515.0" y="402.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">rewrites the rest</text>
+<path d="M730.0,306.0 L770.0,306.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="750.0" y="292.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">done</text>
+<rect x="772.0" y="286.0" width="100" height="40" rx="20.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="822.0" y="306.0" font-size="13" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Answer</text>
+<text x="40.0" y="292.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Variants</text>
+<rect x="36" y="306" width="384" height="56" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="36" y="306" width="6" height="56" rx="3" fill="#667085"/>
+<text x="231.0" y="326.2" font-size="13" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">ReWOO</text>
+<text x="231.0" y="338.6" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">placeholders; tools run without re-calling the planner</text>
+<rect x="36" y="376" width="384" height="56" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="36" y="376" width="6" height="56" rx="3" fill="#667085"/>
+<text x="231.0" y="396.2" font-size="13" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLMCompiler</text>
+<text x="231.0" y="408.6" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">emits a DAG; independent steps run in parallel</text>
+</svg>

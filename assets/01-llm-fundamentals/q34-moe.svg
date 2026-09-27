@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="Mixture of Experts: each token visits only a few experts">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="498" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Mixture of Experts: each token visits only a few experts</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Total parameters (capacity) grow while active parameters per token (compute) stay small.</text>
+<rect x="32.0" y="226.0" width="100" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="82.0" y="246.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Token x</text>
+<path d="M132.0,246.0 L158.0,246.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<polygon points="214,204.0 268.0,246 214,288.0 160.0,246" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="214.0" y="246.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Router</text>
+<text x="214.0" y="306.0" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">scores all 8, keeps</text>
+<text x="214.0" y="321.0" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">top 2, softmax gates</text>
+<rect x="332.0" y="93.0" width="136" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="400.0" y="108.0" font-size="12" font-weight="500" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 1 · FFN</text>
+<rect x="332.0" y="131.0" width="136" height="30" rx="15.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="400.0" y="146.0" font-size="12" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 2 · FFN</text>
+<path d="M268.0,246.0 L330.0,146.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="284.0" y="186.0" font-size="12" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">g_2</text>
+<path d="M468.0,146.0 L516.0,232.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="332.0" y="169.0" width="136" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="400.0" y="184.0" font-size="12" font-weight="500" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 3 · FFN</text>
+<rect x="332.0" y="207.0" width="136" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="400.0" y="222.0" font-size="12" font-weight="500" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 4 · FFN</text>
+<rect x="332.0" y="245.0" width="136" height="30" rx="15.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="400.0" y="260.0" font-size="12" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 5 · FFN</text>
+<path d="M268.0,246.0 L330.0,260.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="300.0" y="270.0" font-size="12" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">g_5</text>
+<path d="M468.0,260.0 L516.0,250.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="332.0" y="283.0" width="136" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="400.0" y="298.0" font-size="12" font-weight="500" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 6 · FFN</text>
+<rect x="332.0" y="321.0" width="136" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="400.0" y="336.0" font-size="12" font-weight="500" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 7 · FFN</text>
+<rect x="332.0" y="359.0" width="136" height="30" rx="15.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="400.0" y="374.0" font-size="12" font-weight="500" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert 8 · FFN</text>
+<text x="400.0" y="400.0" font-size="11.5" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">6 of 8 idle for this token</text>
+<rect x="518" y="206" width="150" height="76" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="518" y="206" width="6" height="76" rx="3" fill="#3E8E2F"/>
+<text x="596.0" y="228.5" font-size="13.5" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Weighted sum</text>
+<text x="596.0" y="241.3" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.85">Σ g_i · E_i(x)</text>
+<text x="596.0" y="256.8" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.85">top-2 only</text>
+<rect x="690" y="86" width="166" height="192" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="706.0" y="104.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Mixtral 8x7B</text>
+<text x="706.0" y="126.0" font-size="12" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">8 experts per layer</text>
+<text x="706.0" y="154.0" font-size="12" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">top-2 per token</text>
+<text x="706.0" y="182.0" font-size="12" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">≈47B params total</text>
+<text x="706.0" y="210.0" font-size="12" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">≈13B active per token</text>
+<text x="706.0" y="238.0" font-size="12" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">attention is shared</text>
+<rect x="690" y="294" width="166" height="76" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="690" y="294" width="6" height="76" rx="3" fill="#D0443A"/>
+<text x="776.0" y="316.5" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Not a memory win</text>
+<text x="776.0" y="328.8" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">all experts must</text>
+<text x="776.0" y="344.4" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">stay loaded</text>
+<rect x="36" y="420" width="404" height="62" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="36" y="420" width="6" height="62" rx="3" fill="#C98A06"/>
+<text x="241.0" y="435.5" font-size="13" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Load balancing</text>
+<text x="241.0" y="447.8" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">aux loss, capacity limits or DeepSeek&#x27;s</text>
+<text x="241.0" y="463.4" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">bias adjustment stop routing collapse</text>
+<rect x="452" y="420" width="404" height="62" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="452" y="420" width="6" height="62" rx="3" fill="#2F6FE4"/>
+<text x="657.0" y="435.5" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Expert parallelism</text>
+<text x="657.0" y="447.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">all-to-all exchange in every MoE layer;</text>
+<text x="657.0" y="463.4" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">gains shrink at small batch sizes</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 404" width="860" height="404" role="img" aria-label="An LLM predicts the next token, in a loop">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="858" height="402" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">An LLM predicts the next token, in a loop</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Layers score every vocabulary token, one is sampled and appended, and the whole pass runs again.</text>
+<rect x="30.0" y="108.0" width="110" height="44" rx="22.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="85.0" y="130.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Prompt</text>
+<path d="M140.0,130.0 L160.0,130.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="164" y="92" width="140" height="76" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="164" y="92" width="6" height="76" rx="3" fill="#0E8C7E"/>
+<text x="237.0" y="114.5" font-size="14" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tokenizer</text>
+<text x="237.0" y="127.8" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">text → subword</text>
+<text x="237.0" y="143.3" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">tokens → vectors</text>
+<path d="M304.0,130.0 L324.0,130.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="328" y="92" width="160" height="76" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="328" y="92" width="6" height="76" rx="3" fill="#6D4AE0"/>
+<text x="411.0" y="114.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Transformer</text>
+<text x="411.0" y="127.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">attention and</text>
+<text x="411.0" y="143.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">feed-forward layers</text>
+<path d="M488.0,130.0 L508.0,130.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="512" y="92" width="140" height="76" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="512" y="92" width="6" height="76" rx="3" fill="#2F6FE4"/>
+<text x="585.0" y="114.5" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Logits</text>
+<text x="585.0" y="127.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">one score per</text>
+<text x="585.0" y="143.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">vocabulary token</text>
+<path d="M652.0,130.0 L672.0,130.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="676" y="92" width="160" height="76" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="676" y="92" width="6" height="76" rx="3" fill="#3E8E2F"/>
+<text x="759.0" y="114.5" font-size="14" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Sample a token</text>
+<text x="759.0" y="127.8" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">softmax gives</text>
+<text x="759.0" y="143.3" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">probabilities; pick one</text>
+<path d="M756.0,168.0 L756.0,208.0 L408.0,208.0 L408.0,172.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="582.0" y="224.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">append the token, repeat</text>
+<rect x="24" y="250" width="410" height="134" rx="16" fill="#E3F6F2" fill-opacity="0.45" stroke="#0E8C7E" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="268.0" font-size="12.5" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Two training stages</text>
+<rect x="44" y="284" width="160" height="76" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="44" y="284" width="6" height="76" rx="3" fill="#0E8C7E"/>
+<text x="127.0" y="306.5" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Pretraining</text>
+<text x="127.0" y="319.3" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">next-token on text</text>
+<text x="127.0" y="334.8" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">→ base model</text>
+<path d="M204.0,322.0 L230.0,322.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="234" y="284" width="180" height="76" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="234" y="284" width="6" height="76" rx="3" fill="#6D4AE0"/>
+<text x="327.0" y="306.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Post-training</text>
+<text x="327.0" y="319.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">instruction + preference</text>
+<text x="327.0" y="334.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">tuning → assistant</text>
+<rect x="450" y="250" width="386" height="134" rx="16" fill="#FDE8E6" fill-opacity="0.45" stroke="#D0443A" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="466.0" y="268.0" font-size="12.5" font-weight="700" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">What it lacks</text>
+<rect x="466.0" y="285.0" width="212" height="26" rx="13.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6"/>
+<text x="572.0" y="298.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no memory between calls</text>
+<rect x="466.0" y="317.0" width="212" height="26" rx="13.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6"/>
+<text x="572.0" y="330.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no knowledge past cutoff</text>
+<rect x="466.0" y="349.0" width="212" height="26" rx="13.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6"/>
+<text x="572.0" y="362.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no notion of truth</text>
+<path d="M682.0,330.0 L704.0,330.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="708" y="298" width="112" height="64" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="708" y="298" width="6" height="64" rx="3" fill="#3E8E2F"/>
+<text x="767.0" y="314.5" font-size="12.5" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Covered by</text>
+<text x="767.0" y="326.4" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">RAG, tools</text>
+<text x="767.0" y="341.9" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">and evals</text>
+</svg>

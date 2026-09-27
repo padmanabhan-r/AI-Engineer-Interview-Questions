@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-label="Agent memory: write, read, consolidate">
+<defs><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><marker id="mD6408F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D6408F"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="398" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Agent memory: write, read, consolidate</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The model is stateless; memory is what the harness stores outside it and puts back into the context window.</text>
+<rect x="36" y="180" width="170" height="70" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="36" y="180" width="6" height="70" rx="3" fill="#6D4AE0"/>
+<text x="124.0" y="207.2" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Agent turn</text>
+<text x="124.0" y="220.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">stateless model</text>
+<path d="M121.0,180.0 L121.0,130.0 L284.0,130.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<rect x="286" y="100" width="224" height="60" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="286" y="100" width="6" height="60" rx="3" fill="#C98A06"/>
+<text x="401.0" y="122.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Write path</text>
+<text x="401.0" y="135.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">an LLM call extracts durable facts</text>
+<text x="398.0" y="176.0" font-size="11" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">untrusted source? store provenance,</text>
+<text x="398.0" y="191.0" font-size="11" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">or the injection persists</text>
+<path d="M510.0,130.0 L640.0,130.0 L640.0,156.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<path d="M555.0,168.0 L555.0,262.0 A85.0,9 0 0 0 725.0,262.0 L725.0,168.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="640" cy="168.0" rx="85.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="640.0" y="220.0" font-size="13" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Long-term store</text>
+<text x="640.0" y="243.0" font-size="10.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">vectors · profile · files</text>
+<text x="640.0" y="258.0" font-size="10.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">(CLAUDE.md)</text>
+<path d="M725.0,198.0 L752.0,198.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<rect x="754" y="162" width="104" height="106" rx="12" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.8"/>
+<rect x="754" y="162" width="6" height="106" rx="3" fill="#D6408F"/>
+<text x="809.0" y="185.3" font-size="12.5" font-weight="700" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Consolidate</text>
+<text x="809.0" y="197.2" font-size="11" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">merge dupes,</text>
+<text x="809.0" y="212.0" font-size="11" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">replace</text>
+<text x="809.0" y="226.9" font-size="11" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">contradicted,</text>
+<text x="809.0" y="241.7" font-size="11" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">expire</text>
+<path d="M752.0,238.0 L727.0,238.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<path d="M640.0,271.0 L640.0,310.0 L512.0,310.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="286" y="280" width="224" height="60" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="286" y="280" width="6" height="60" rx="3" fill="#2F6FE4"/>
+<text x="401.0" y="302.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Read path</text>
+<text x="401.0" y="315.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">similarity, recency, importance</text>
+<text x="398.0" y="356.0" font-size="11" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">or the agent calls search_memory</text>
+<path d="M286.0,310.0 L121.0,310.0 L121.0,252.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="200.0" y="298.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">inject into context</text>
+</svg>

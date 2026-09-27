@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 408" width="900" height="408" role="img" aria-label="A new embedding model is a blue/green migration">
+<defs><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="406" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A new embedding model is a blue/green migration</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Vectors from different models live in incompatible spaces, so re-embed everything, prove it, then flip one alias.</text>
+<rect x="64" y="106" width="140" height="88" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="64" y="106" width="6" height="88" rx="3" fill="#2F6FE4"/>
+<text x="137.0" y="142.6" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Blue: serving</text>
+<text x="137.0" y="155.4" font-size="11" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">index A, model A</text>
+<rect x="268" y="106" width="140" height="88" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="268" y="106" width="6" height="88" rx="3" fill="#C98A06"/>
+<text x="341.0" y="127.7" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Backfill</text>
+<text x="341.0" y="140.5" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">index B from stored</text>
+<text x="341.0" y="155.4" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">source text; new</text>
+<text x="341.0" y="170.2" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">docs go to both</text>
+<rect x="472" y="106" width="140" height="88" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="472" y="106" width="6" height="88" rx="3" fill="#667085"/>
+<text x="545.0" y="135.2" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Shadow</text>
+<text x="545.0" y="148.0" font-size="11" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">B sees live traffic,</text>
+<text x="545.0" y="162.8" font-size="11" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">results not served</text>
+<rect x="676" y="106" width="140" height="88" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="676" y="106" width="6" height="88" rx="3" fill="#3E8E2F"/>
+<text x="749.0" y="135.2" font-size="13.5" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Cutover</text>
+<text x="749.0" y="148.0" font-size="11" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">one alias flips the</text>
+<text x="749.0" y="162.8" font-size="11" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">query model + index</text>
+<circle cx="38" cy="150" r="8" fill="#344054"/>
+<path d="M46.0,150.0 L62.0,150.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M818.0,150.0 L856.0,150.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<circle cx="866" cy="150" r="9" fill="#FFFFFF" stroke="#344054" stroke-width="2"/><circle cx="866" cy="150" r="5" fill="#344054"/>
+<text x="838.0" y="117.2" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">retire</text>
+<text x="838.0" y="130.9" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">A</text>
+<path d="M206.0,150.0 L266.0,150.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="236.0" y="117.2" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">model B</text>
+<text x="236.0" y="130.9" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">released</text>
+<path d="M410.0,150.0 L470.0,150.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="440.0" y="117.2" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">index B</text>
+<text x="440.0" y="130.9" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">complete</text>
+<path d="M614.0,150.0 L674.0,150.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="644.0" y="117.2" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">B beats A</text>
+<text x="644.0" y="130.9" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">on eval</text>
+<path d="M542.0,194.0 L542.0,234.0 L160.0,234.0 L160.0,196.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD0443A)"/>
+<text x="371.0" y="222.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">B worse: stay on A</text>
+<path d="M746.0,194.0 L746.0,274.0 L108.0,274.0 L108.0,196.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD0443A)"/>
+<text x="467.0" y="262.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">regression after cutover: flip the alias back (old index kept)</text>
+<rect x="28" y="310" width="410" height="72" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="28" y="310" width="6" height="72" rx="3" fill="#667085"/>
+<text x="236.0" y="338.2" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tag every vector</text>
+<text x="236.0" y="351.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">with model + version; name indexes by version</text>
+<rect x="462" y="310" width="410" height="72" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="462" y="310" width="6" height="72" rx="3" fill="#D0443A"/>
+<text x="670.0" y="330.5" font-size="13.5" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Same dimensions, different space</text>
+<text x="670.0" y="343.3" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">no error, just near-random results;</text>
+<text x="670.0" y="358.8" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">a learned projection is a lossy stopgap</text>
+</svg>

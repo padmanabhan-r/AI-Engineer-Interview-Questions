@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 690" width="880" height="690" role="img" aria-label="Inside ChatGPT: after you hit Enter">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="688" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Inside ChatGPT: after you hit Enter</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Prefill is compute-bound, decode is memory-bound, and cost scales with the whole resent context.</text>
+<rect x="24" y="80" width="176" height="590" rx="16" fill="#E8EEF8" fill-opacity="0.45" stroke="#1F3864" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="98.0" font-size="12.5" font-weight="700" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">BROWSER</text>
+<rect x="212" y="80" width="300" height="590" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="228.0" y="98.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">ORCHESTRATOR</text>
+<rect x="524" y="80" width="332" height="590" rx="16" fill="#F1ECFF" fill-opacity="0.45" stroke="#6D4AE0" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="540.0" y="98.0" font-size="12.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MODEL SERVER</text>
+<rect x="42.0" y="116.0" width="140" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="112.0" y="136.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Your message</text>
+<path d="M182.0,136.0 L262.0,136.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<polygon points="288.0,112.0 436.0,112.0 460.0,136.0 436.0,160.0 288.0,160.0 264.0,136.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="362.0" y="136.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Edge</text>
+<text x="362.0" y="174.0" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">auth · rate limit · abuse checks</text>
+<path d="M362.0,186.0 L362.0,204.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="232" y="206" width="260" height="90" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="232" y="206" width="6" height="90" rx="3" fill="#667085"/>
+<text x="365.0" y="227.7" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Build context</text>
+<text x="365.0" y="240.5" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">system prompt, memory, files,</text>
+<text x="365.0" y="256.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">tool schemas, prior turns</text>
+<text x="365.0" y="271.6" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">(whole chat resent every turn)</text>
+<path d="M362.0,296.0 L362.0,316.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="230.0" y="317.0" width="220" height="38" rx="19.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="340.0" y="336.0" font-size="12.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Join a continuous batch</text>
+<path d="M450.0,336.0 L542.0,336.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="481.0" y="322.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">token IDs</text>
+<rect x="544" y="296" width="212" height="90" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="544" y="296" width="6" height="90" rx="3" fill="#6D4AE0"/>
+<text x="653.0" y="317.7" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Prefill</text>
+<text x="653.0" y="331.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">all prompt tokens, every layer,</text>
+<text x="653.0" y="346.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">in parallel; fills the KV cache</text>
+<text x="653.0" y="362.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">sets TTFT · compute-bound</text>
+<path d="M650.0,386.0 L650.0,420.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M756.0,342.0 L808.0,342.0 L808.0,366.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M768.0,378.0 L768.0,430.0 A40.0,9 0 0 0 848.0,430.0 L848.0,378.0" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<ellipse cx="808" cy="378.0" rx="40.0" ry="9" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<text x="808.0" y="409.0" font-size="12" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">KV cache</text>
+<path d="M808.0,440.0 L808.0,470.0 L760.0,470.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="816.0" y="356.0" font-size="11" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">write</text>
+<text x="816.0" y="458.0" font-size="11" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">read</text>
+<rect x="544" y="422" width="212" height="90" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="544" y="422" width="6" height="90" rx="3" fill="#2F6FE4"/>
+<text x="653.0" y="443.7" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Decode</text>
+<text x="653.0" y="457.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">one forward pass per token:</text>
+<text x="653.0" y="472.5" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">sample, detokenize</text>
+<text x="653.0" y="488.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">memory-bound</text>
+<path d="M544.0,456.0 L190.0,456.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="366.0" y="444.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">each token, streamed via SSE</text>
+<rect x="37.0" y="436.0" width="150" height="40" rx="20.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="112.0" y="456.0" font-size="13" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Streamed reply</text>
+<rect x="232" y="530" width="260" height="64" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="232" y="530" width="6" height="64" rx="3" fill="#C98A06"/>
+<text x="365.0" y="546.5" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tools</text>
+<text x="365.0" y="559.3" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">orchestrator runs the call,</text>
+<text x="365.0" y="574.8" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">appends the result</text>
+<path d="M600.0,512.0 L600.0,548.0 L496.0,548.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="566.0" y="538.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tool call</text>
+<path d="M494.0,578.0 L664.0,578.0 L664.0,516.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="600.0" y="592.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">decoding resumes</text>
+<rect x="232" y="610" width="260" height="48" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="232" y="610" width="6" height="48" rx="3" fill="#667085"/>
+<text x="365.0" y="626.2" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Stop</text>
+<text x="365.0" y="639.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">output checks, turn stored</text>
+<path d="M730.0,512.0 L730.0,634.0 L496.0,634.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="624.0" y="622.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">end-of-turn or length limit</text>
+</svg>

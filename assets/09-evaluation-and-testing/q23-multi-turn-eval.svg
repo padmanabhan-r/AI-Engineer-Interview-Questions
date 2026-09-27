@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="Evaluating a whole conversation">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="498" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Evaluating a whole conversation</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A simulated user plays it out live, since a replayed transcript diverges after the first different answer.</text>
+<rect x="35.0" y="85.0" width="150" height="38" rx="19.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="110.0" y="104.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Simulated user</text>
+<line x1="110" y1="150" x2="110" y2="398" stroke="#1F3864" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+<rect x="245.0" y="85.0" width="150" height="38" rx="19.0" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="320.0" y="104.0" font-size="13" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Assistant</text>
+<line x1="320" y1="123" x2="320" y2="398" stroke="#6D4AE0" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+<rect x="441.0" y="85.0" width="150" height="38" rx="19.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<text x="516.0" y="104.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Judge</text>
+<line x1="516" y1="123" x2="516" y2="398" stroke="#C98A06" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+<text x="110.0" y="138.0" font-size="11" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">persona + hidden goal</text>
+<path d="M114.0,178.0 L314.0,178.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<text x="215.0" y="167.0" font-size="11.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">turn 1: request</text>
+<path d="M316.0,216.0 L116.0,216.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m6D4AE0)"/>
+<text x="215.0" y="205.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">response</text>
+<path d="M114.0,262.0 L314.0,262.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<text x="215.0" y="251.0" font-size="11.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">turn 2: correction or detail</text>
+<path d="M316.0,300.0 L116.0,300.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m6D4AE0)"/>
+<text x="215.0" y="289.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">response</text>
+<text x="215.0" y="340.0" font-size="12" font-weight="700" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">⋮  more turns</text>
+<path d="M324.0,380.0 L510.0,380.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="418.0" y="369.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">transcript + final state</text>
+<text x="516.0" y="414.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">scores the whole run</text>
+<rect x="612" y="84" width="264" height="206" rx="14" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<text x="628.0" y="106.0" font-size="12.5" font-weight="700" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Judge scores the conversation</text>
+<rect x="628" y="122" width="232" height="24" rx="12" fill="#FFFFFF" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="744.0" y="134.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">goal completion</text>
+<rect x="628" y="152" width="232" height="24" rx="12" fill="#FFFFFF" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="744.0" y="164.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">turns to resolution</text>
+<rect x="628" y="182" width="232" height="24" rx="12" fill="#FFFFFF" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="744.0" y="194.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">context retention</text>
+<rect x="628" y="212" width="232" height="24" rx="12" fill="#FFFFFF" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="744.0" y="224.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">consistency</text>
+<rect x="628" y="242" width="232" height="24" rx="12" fill="#FFFFFF" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="744.0" y="254.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">correction handling</text>
+<rect x="612" y="306" width="264" height="114" rx="14" fill="#FFFFFF" stroke="#D0D5DD"/>
+<text x="628.0" y="326.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Scripted probes</text>
+<text x="628.0" y="348.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">retention: turn 8 depends on turn 2</text>
+<text x="628.0" y="368.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">corrections and ambiguity</text>
+<text x="628.0" y="388.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">multi-turn escalation (safety)</text>
+<text x="628.0" y="408.0" font-size="11.5" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">each scenario run several times</text>
+<rect x="32" y="440" width="844" height="40" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-opacity="0.5"/>
+<text x="454.0" y="460.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Pitfall: simulators are too cooperative. Add terse, vague and adversarial personas; review real transcripts weekly.</text>
+</svg>

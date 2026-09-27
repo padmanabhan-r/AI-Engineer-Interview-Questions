@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="Multi-modal embeddings: two encoders, one shared space">
+<defs><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><marker id="mD6408F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D6408F"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="498" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Multi-modal embeddings: two encoders, one shared space</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Train on image-caption pairs so each true pair scores high and every other pairing in the batch scores low.</text>
+<rect x="23.0" y="96.0" width="110" height="40" rx="20.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="78.0" y="116.0" font-size="13" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Caption</text>
+<path d="M133.0,116.0 L160.0,116.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="162" y="88" width="150" height="56" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="162" y="88" width="6" height="56" rx="3" fill="#2F6FE4"/>
+<text x="240.0" y="116.0" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Text encoder</text>
+<path d="M312.0,116.0 L332.0,116.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="334.0" y="99.0" width="128" height="34" rx="17.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="398.0" y="116.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">project to d</text>
+<path d="M462.0,116.0 L590.0,116.0 L590.0,150.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="23.0" y="216.0" width="110" height="40" rx="20.0" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.6"/>
+<text x="78.0" y="236.0" font-size="13" font-weight="600" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Image</text>
+<path d="M133.0,236.0 L160.0,236.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<rect x="162" y="208" width="150" height="56" rx="12" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.8"/>
+<rect x="162" y="208" width="6" height="56" rx="3" fill="#D6408F"/>
+<text x="240.0" y="236.0" font-size="13.5" font-weight="700" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Image encoder</text>
+<path d="M312.0,236.0 L332.0,236.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<rect x="334.0" y="219.0" width="128" height="34" rx="17.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="398.0" y="236.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">project to d</text>
+<path d="M462.0,236.0 L500.0,236.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<rect x="530" y="176" width="28" height="28" rx="3" fill="#3E8E2F" fill-opacity="0.8" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="560" y="176" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="590" y="176" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="620" y="176" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="530" y="206" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="560" y="206" width="28" height="28" rx="3" fill="#3E8E2F" fill-opacity="0.8" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="590" y="206" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="620" y="206" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="530" y="236" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="560" y="236" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="590" y="236" width="28" height="28" rx="3" fill="#3E8E2F" fill-opacity="0.8" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="620" y="236" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="530" y="266" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="560" y="266" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="590" y="266" width="28" height="28" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="620" y="266" width="28" height="28" rx="3" fill="#3E8E2F" fill-opacity="0.8" stroke="#3E8E2F" stroke-width="1"/>
+<text x="544.0" y="164.0" font-size="11" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">T1</text>
+<text x="520.0" y="190.0" font-size="11" font-weight="600" fill="#8A1F58" text-anchor="end" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">I1</text>
+<text x="574.0" y="164.0" font-size="11" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">T2</text>
+<text x="520.0" y="220.0" font-size="11" font-weight="600" fill="#8A1F58" text-anchor="end" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">I2</text>
+<text x="604.0" y="164.0" font-size="11" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">T3</text>
+<text x="520.0" y="250.0" font-size="11" font-weight="600" fill="#8A1F58" text-anchor="end" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">I3</text>
+<text x="634.0" y="164.0" font-size="11" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">T4</text>
+<text x="520.0" y="280.0" font-size="11" font-weight="600" fill="#8A1F58" text-anchor="end" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">I4</text>
+<text x="590.0" y="312.0" font-size="11.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">batch similarity matrix</text>
+<text x="680.0" y="196.0" font-size="11.5" font-weight="700" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">diagonal = true pairs:</text>
+<text x="680.0" y="213.0" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">push scores up</text>
+<text x="680.0" y="246.0" font-size="11.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">everything else:</text>
+<text x="680.0" y="263.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">push scores down</text>
+<path d="M590.0,322.0 L590.0,350.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<rect x="440" y="352" width="300" height="50" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="440" y="352" width="6" height="50" rx="3" fill="#C98A06"/>
+<text x="593.0" y="369.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Symmetric contrastive loss</text>
+<text x="593.0" y="382.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">image → text and text → image</text>
+<rect x="28" y="424" width="270" height="56" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="28" y="424" width="6" height="56" rx="3" fill="#3E8E2F"/>
+<text x="166.0" y="444.2" font-size="13" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">After training</text>
+<text x="166.0" y="456.6" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">either encoder alone maps into the space</text>
+<rect x="28" y="346" width="270" height="60" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="28" y="346" width="6" height="60" rx="3" fill="#667085"/>
+<text x="166.0" y="360.5" font-size="13" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Uses</text>
+<text x="166.0" y="372.8" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">text-to-image search, zero-shot</text>
+<text x="166.0" y="388.4" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">classification, multimodal RAG</text>
+<rect x="320" y="424" width="532" height="56" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="320" y="424" width="6" height="56" rx="3" fill="#D0443A"/>
+<text x="589.0" y="436.5" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Pitfall: the modality gap</text>
+<text x="589.0" y="448.8" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">image and text vectors occupy different regions,</text>
+<text x="589.0" y="464.4" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">so scores are not comparable across modalities</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 514" width="900" height="514" role="img" aria-label="A real-time recommendation system">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="512" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A real-time recommendation system</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Retrieve hundreds, rank with fresh features, re-rank for diversity; LLMs work offline on items, not in the request path.</text>
+<rect x="24" y="80" width="852" height="128" rx="16" fill="#E7F0FF" fill-opacity="0.45" stroke="#2F6FE4" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="98.0" font-size="12.5" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">ONLINE · per request, p99 under ~100 ms</text>
+<rect x="32.0" y="130.0" width="100" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="82.0" y="150.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Request</text>
+<path d="M132.0,150.0 L158.0,150.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="160" y="114" width="220" height="72" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="160" y="114" width="6" height="72" rx="3" fill="#2F6FE4"/>
+<text x="273.0" y="134.5" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Candidates</text>
+<text x="273.0" y="147.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">two-tower ANN, trending, graph</text>
+<text x="273.0" y="162.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">→ hundreds of items</text>
+<path d="M380.0,150.0 L408.0,150.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="410" y="114" width="190" height="72" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="410" y="114" width="6" height="72" rx="3" fill="#6D4AE0"/>
+<text x="508.0" y="134.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Multi-task ranker</text>
+<text x="508.0" y="147.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">click, completion, like,</text>
+<text x="508.0" y="162.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">skip, report</text>
+<path d="M600.0,150.0 L628.0,150.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="630" y="120" width="140" height="60" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="630" y="120" width="6" height="60" rx="3" fill="#C98A06"/>
+<text x="703.0" y="142.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Re-rank</text>
+<text x="703.0" y="155.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">diversity, rules</text>
+<path d="M770.0,150.0 L792.0,150.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="794.0" y="130.0" width="80" height="40" rx="20.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="834.0" y="150.0" font-size="13" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Feed</text>
+<rect x="386" y="214" width="490" height="148" rx="16" fill="#E3F6F2" fill-opacity="0.45" stroke="#0E8C7E" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="860.0" y="346.0" font-size="12.5" font-weight="700" fill="#0A5A51" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">STREAMING · reacts in seconds</text>
+<path d="M834.0,170.0 L834.0,282.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="824.0" y="243.2" font-size="11" font-weight="600" fill="#275C1C" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">clicks, skips,</text>
+<text x="824.0" y="256.9" font-size="11" font-weight="600" fill="#275C1C" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">hides</text>
+<rect x="785.0" y="284.0" width="90" height="40" rx="20.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="830.0" y="304.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Events</text>
+<path d="M785.0,304.0 L752.0,304.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="570" y="276" width="180" height="56" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="570" y="276" width="6" height="56" rx="3" fill="#0E8C7E"/>
+<text x="663.0" y="296.2" font-size="13" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Stream processor</text>
+<text x="663.0" y="308.6" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">~2.5B events/day</text>
+<path d="M570.0,304.0 L556.0,304.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M403.0,281.0 L403.0,327.0 A75.0,9 0 0 0 553.0,327.0 L553.0,281.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="478" cy="281.0" rx="75.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="478.0" y="301.2" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Online</text>
+<text x="478.0" y="316.9" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">feature store</text>
+<path d="M505.0,273.0 L505.0,188.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<text x="514.0" y="200.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">real-time features</text>
+<rect x="24" y="372" width="852" height="124" rx="16" fill="#F1ECFF" fill-opacity="0.45" stroke="#6D4AE0" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="860.0" y="390.0" font-size="12.5" font-weight="700" fill="#3B2596" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">OFFLINE · content understanding</text>
+<path d="M185.0,401.0 L185.0,459.0 A85.0,9 0 0 0 355.0,459.0 L355.0,401.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<ellipse cx="270" cy="401.0" rx="85.0" ry="9" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<text x="270.0" y="435.0" font-size="12.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Item ANN index</text>
+<text x="270.0" y="482.0" font-size="11" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">item vectors, precomputed</text>
+<path d="M270.0,394.0 L270.0,188.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="390" y="400" width="280" height="64" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="390" y="400" width="6" height="64" rx="3" fill="#6D4AE0"/>
+<text x="533.0" y="416.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLM + vision</text>
+<text x="533.0" y="429.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">embeddings and tags per item</text>
+<text x="533.0" y="444.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">help cold start</text>
+<path d="M390.0,432.0 L357.0,432.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M724.0,432.0 L672.0,432.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="725.0" y="412.0" width="130" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="790.0" y="432.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">New items</text>
+</svg>

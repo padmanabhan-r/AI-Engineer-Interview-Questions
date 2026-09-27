@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 444" width="900" height="444" role="img" aria-label="A runaway feedback loop">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="442" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A runaway feedback loop</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Decisions choose which outcomes get recorded, and those outcomes retrain the model; exploration is the only proof you are out.</text>
+<rect x="190.0" y="96.0" width="180" height="56" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="190.0" y="96.0" width="6" height="56" rx="3" fill="#6D4AE0"/>
+<text x="283.0" y="116.2" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Model predicts</text>
+<text x="283.0" y="129.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">high risk in area A</text>
+<rect x="355.0" y="228.0" width="180" height="56" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="355.0" y="228.0" width="6" height="56" rx="3" fill="#1F3864"/>
+<text x="448.0" y="248.2" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">More scrutiny</text>
+<text x="448.0" y="261.1" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">in area A</text>
+<rect x="190.0" y="360.0" width="180" height="56" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="190.0" y="360.0" width="6" height="56" rx="3" fill="#C98A06"/>
+<text x="283.0" y="380.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">More incidents</text>
+<text x="283.0" y="393.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">recorded in A</text>
+<rect x="25.0" y="228.0" width="180" height="56" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="25.0" y="228.0" width="6" height="56" rx="3" fill="#0E8C7E"/>
+<text x="118.0" y="248.2" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Training data</text>
+<text x="118.0" y="261.1" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">over-represents A</text>
+<path d="M370,124 C430,124 445,170 445,226" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<path d="M445,286 C445,345 430,388 372,388" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<path d="M190,388 C130,388 115,345 115,286" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M115,226 C115,170 130,124 188,124" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="280.0" y="246.0" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">runaway</text>
+<text x="280.0" y="266.0" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">feedback loop</text>
+<rect x="572" y="82" width="304" height="344" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="588.0" y="100.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Break it on the data side</text>
+<rect x="588" y="114" width="272" height="64" rx="10" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.4"/>
+<rect x="588" y="114" width="5" height="64" rx="2.5" fill="#1F3864"/>
+<text x="604.0" y="135.0" font-size="13" font-weight="700" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Exploration</text>
+<text x="848.0" y="135.0" font-size="10.5" font-weight="600" fill="#1F3864" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.8">cuts: decisions</text>
+<text x="604.0" y="158.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">randomize a small, governed share</text>
+<rect x="588" y="190" width="272" height="64" rx="10" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.4"/>
+<rect x="588" y="190" width="5" height="64" rx="2.5" fill="#1F3864"/>
+<text x="604.0" y="211.0" font-size="13" font-weight="700" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Holdout</text>
+<text x="848.0" y="211.0" font-size="10.5" font-weight="600" fill="#1F3864" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.8">cuts: decisions</text>
+<text x="604.0" y="234.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">a slice outside the model&#x27;s influence</text>
+<rect x="588" y="266" width="272" height="64" rx="10" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.4"/>
+<rect x="588" y="266" width="5" height="64" rx="2.5" fill="#0E8C7E"/>
+<text x="604.0" y="287.0" font-size="13" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Propensity weights</text>
+<text x="848.0" y="287.0" font-size="10.5" font-weight="600" fill="#0A5A51" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.8">cuts: training</text>
+<text x="604.0" y="310.0" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">log P(decision); IPW, reject inference</text>
+<rect x="588" y="342" width="272" height="64" rx="10" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.4"/>
+<rect x="588" y="342" width="5" height="64" rx="2.5" fill="#C98A06"/>
+<text x="604.0" y="363.0" font-size="13" font-weight="700" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Independent labels</text>
+<text x="848.0" y="363.0" font-size="10.5" font-weight="600" fill="#7A5300" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.8">cuts: outcomes</text>
+<text x="604.0" y="386.0" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">victim reports, other lenders&#x27; data</text>
+</svg>

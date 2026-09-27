@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 462" width="900" height="462" role="img" aria-label="A multi-agent workflow engine">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="460" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A multi-agent workflow engine</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">An explicit graph, not free-form chat: specialists write typed state, a reviewer checks it, a human approves.</text>
+<rect x="24" y="78" width="852" height="364" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="96.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">DURABLE RUNTIME · checkpoint every step · retries · step, token and time budgets</text>
+<rect x="34.0" y="175.0" width="100" height="42" rx="21.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="84.0" y="196.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Task</text>
+<path d="M134.0,196.0 L160.0,196.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="162" y="118" width="230" height="160" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="162" y="118" width="6" height="160" rx="3" fill="#2F6FE4"/>
+<text x="280.0" y="142.0" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Orchestrator</text>
+<text x="280.0" y="162.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">plans the task as a graph</text>
+<line x1="208" y1="222" x2="280" y2="196" stroke="#2F6FE4" stroke-width="1.6" opacity="0.7"/>
+<line x1="208" y1="222" x2="280" y2="250" stroke="#2F6FE4" stroke-width="1.6" opacity="0.7"/>
+<line x1="280" y1="196" x2="352" y2="222" stroke="#2F6FE4" stroke-width="1.6" opacity="0.7"/>
+<line x1="280" y1="250" x2="352" y2="222" stroke="#2F6FE4" stroke-width="1.6" opacity="0.7"/>
+<circle cx="208" cy="222" r="9" fill="#FFFFFF" stroke="#2F6FE4" stroke-width="2"/>
+<circle cx="280" cy="196" r="9" fill="#FFFFFF" stroke="#2F6FE4" stroke-width="2"/>
+<circle cx="280" cy="250" r="9" fill="#FFFFFF" stroke="#2F6FE4" stroke-width="2"/>
+<circle cx="352" cy="222" r="9" fill="#FFFFFF" stroke="#2F6FE4" stroke-width="2"/>
+<text x="280.0" y="222.0" font-size="10" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.8">parallel</text>
+<path d="M392.0,158.0 L438.0,158.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M392.0,236.0 L438.0,236.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="440" y="128" width="196" height="58" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="440" y="128" width="6" height="58" rx="3" fill="#6D4AE0"/>
+<text x="541.0" y="149.2" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Specialist agent A</text>
+<text x="541.0" y="162.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">scoped tools + context</text>
+<rect x="440" y="206" width="196" height="58" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="440" y="206" width="6" height="58" rx="3" fill="#6D4AE0"/>
+<text x="541.0" y="227.2" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Specialist agent B</text>
+<text x="541.0" y="240.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">scoped tools + context</text>
+<path d="M636.0,158.0 L668.0,158.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M636.0,236.0 L668.0,236.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M669.0,156.0 L669.0,238.0 A85.0,9 0 0 0 839.0,238.0 L839.0,156.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="754" cy="156.0" rx="85.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="754.0" y="193.9" font-size="13" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Typed shared</text>
+<text x="754.0" y="210.2" font-size="13" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">state</text>
+<text x="744.0" y="290.0" font-size="11" font-weight="600" fill="#0A5A51" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">schema per handoff</text>
+<path d="M754.0,247.0 L754.0,346.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="654" y="348" width="200" height="60" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="654" y="348" width="6" height="60" rx="3" fill="#6D4AE0"/>
+<text x="757.0" y="370.2" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Reviewer agent</text>
+<text x="757.0" y="383.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">checks outputs</text>
+<path d="M654.0,378.0 L578.0,378.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<polygon points="413.0,349.0 547.0,349.0 576.0,378.0 547.0,407.0 413.0,407.0 384.0,378.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="480.0" y="378.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human approval</text>
+<path d="M384.0,378.0 L262.0,378.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="140.0" y="357.0" width="120" height="42" rx="21.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="200.0" y="378.0" font-size="13" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Result</text>
+<path d="M690.0,348.0 L690.0,312.0 L280.0,312.0 L280.0,280.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD0443A)"/>
+<text x="485.0" y="300.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">rework</text>
+</svg>

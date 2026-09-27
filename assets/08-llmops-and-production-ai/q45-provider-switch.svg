@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-label="Switching LLM providers without downtime">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="538" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Switching LLM providers without downtime</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The API swap is a config change behind a gateway; matching behaviour is the real work, proven offline, then on live traffic.</text>
+<rect x="32" y="100" width="180" height="66" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="32" y="100" width="6" height="66" rx="3" fill="#2F6FE4"/>
+<text x="125.0" y="117.5" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Gateway abstraction</text>
+<text x="125.0" y="129.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">adapters absorb format</text>
+<text x="125.0" y="145.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">and error differences</text>
+<rect x="250" y="100" width="180" height="66" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="250" y="100" width="6" height="66" rx="3" fill="#6D4AE0"/>
+<text x="343.0" y="125.2" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Port prompts + tools</text>
+<text x="343.0" y="137.6" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">re-tune per provider</text>
+<polygon points="501.0,100.0 615.0,100.0 648.0,133.0 615.0,166.0 501.0,166.0 468.0,133.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="558.0" y="133.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Offline evals</text>
+<text x="558.0" y="88.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">regression, safety, latency suites</text>
+<rect x="686" y="100" width="180" height="66" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="686" y="100" width="6" height="66" rx="3" fill="#0E8C7E"/>
+<text x="779.0" y="117.5" font-size="13" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Shadow traffic</text>
+<text x="779.0" y="129.8" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">compare judge scores,</text>
+<text x="779.0" y="145.3" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">length, cost</text>
+<path d="M212.0,133.0 L248.0,133.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M430.0,133.0 L466.0,133.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M648.0,133.0 L684.0,133.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="686" y="236" width="180" height="66" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="686" y="236" width="6" height="66" rx="3" fill="#C98A06"/>
+<text x="779.0" y="261.2" font-size="13" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Canary 1–10%</text>
+<text x="779.0" y="273.6" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">sticky per conversation</text>
+<path d="M816.0,166.0 L816.0,234.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="468" y="236" width="180" height="66" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="468" y="236" width="6" height="66" rx="3" fill="#3E8E2F"/>
+<text x="561.0" y="253.5" font-size="13" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Ramp to 100%</text>
+<text x="561.0" y="265.8" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">automatic rollback</text>
+<text x="561.0" y="281.3" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">triggers</text>
+<path d="M686.0,269.0 L650.0,269.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="233.0" y="246.0" width="214" height="46" rx="23.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="340.0" y="269.0" font-size="12.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Old provider = fallback</text>
+<path d="M468.0,269.0 L449.0,269.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M736.0,236.0 L736.0,204.0 L340.0,204.0 L340.0,168.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD0443A)"/>
+<text x="352.0" y="190.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">regression: back to porting</text>
+<text x="32.0" y="346.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Share of live traffic served by the new provider</text>
+<text x="148.0" y="380.0" font-size="12" font-weight="600" fill="#344054" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Shadow</text>
+<rect x="160" y="368" width="520" height="24" rx="6" fill="#F2F4F7" stroke="#667085"/>
+<rect x="163" y="371" width="514" height="18" rx="5" fill="none" stroke="#6D4AE0" stroke-dasharray="5 4"/>
+<text x="692.0" y="380.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">copy only, answers not served</text>
+<text x="148.0" y="420.0" font-size="12" font-weight="600" fill="#344054" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Canary</text>
+<rect x="160" y="408" width="520" height="24" rx="6" fill="#F2F4F7" stroke="#667085"/>
+<rect x="160" y="408" width="31.2" height="24" rx="6" fill="#F1ECFF" stroke="#6D4AE0"/>
+<text x="692.0" y="420.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">1–10%</text>
+<text x="148.0" y="460.0" font-size="12" font-weight="600" fill="#344054" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Ramp</text>
+<rect x="160" y="448" width="520" height="24" rx="6" fill="#F2F4F7" stroke="#667085"/>
+<rect x="160" y="448" width="520.0" height="24" rx="6" fill="#F1ECFF" stroke="#6D4AE0"/>
+<text x="692.0" y="460.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">100%, old provider on standby</text>
+<text x="420.0" y="380.0" font-size="11" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">old provider serves every answer</text>
+<text x="420.0" y="420.0" font-size="11" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">old provider serves the rest</text>
+<text x="420.0" y="460.0" font-size="11" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">new provider serves</text>
+<rect x="32" y="490" width="836" height="34" rx="10" fill="#FFF4D6" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="450.0" y="507.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Embeddings are not swappable: re-embed the corpus in the background, dual-write, then switch embedder and index together.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 412" width="900" height="412" role="img" aria-label="Prompt injection: limit what an injected model can do">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="410" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Prompt injection: limit what an injected model can do</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The model has no hard line between instructions and data, so the defense is layers around it, not a sentence in the prompt.</text>
+<rect x="25.0" y="94.0" width="200" height="36" rx="18.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="125.0" y="112.0" font-size="12" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Direct: user types it</text>
+<rect x="20.0" y="146.0" width="210" height="52" rx="26.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6"/>
+<text x="125.0" y="164.9" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Indirect: web page,</text>
+<text x="125.0" y="179.2" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">email, PDF, tool result</text>
+<path d="M225.0,112.0 L240.0,112.0 L254.0,136.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<path d="M230.0,172.0 L240.0,172.0 L254.0,148.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<polygon points="282.0,114.0 362.0,114.0 390.0,142.0 362.0,170.0 282.0,170.0 254.0,142.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="322.0" y="142.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Input classifier</text>
+<path d="M390.0,142.0 L418.0,142.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="420" y="108" width="170" height="68" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="420" y="108" width="6" height="68" rx="3" fill="#6D4AE0"/>
+<text x="508.0" y="126.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLM</text>
+<text x="508.0" y="139.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">untrusted text</text>
+<text x="508.0" y="155.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">labelled as data</text>
+<path d="M505.0,176.0 L505.0,236.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<polygon points="449.0,238.0 561.0,238.0 593.0,270.0 561.0,302.0 449.0,302.0 417.0,270.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="505.0" y="262.2" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Output validation</text>
+<text x="505.0" y="277.9" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">+ allowlists</text>
+<path d="M417.0,270.0 L392.0,270.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="230" y="238" width="160" height="64" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="230" y="238" width="6" height="64" rx="3" fill="#2F6FE4"/>
+<text x="313.0" y="254.5" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tools</text>
+<text x="313.0" y="267.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">least privilege,</text>
+<text x="313.0" y="283.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">enforced in code</text>
+<path d="M230.0,270.0 L204.0,270.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="40" y="238" width="162" height="64" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="40" y="238" width="6" height="64" rx="3" fill="#1F3864"/>
+<text x="124.0" y="262.2" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human confirms</text>
+<text x="124.0" y="275.1" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">irreversible actions</text>
+<text x="315.0" y="346.0" font-size="11.5" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-style="italic" opacity="1">Classifiers and labelled delimiters lower the success rate;</text>
+<text x="315.0" y="366.0" font-size="11.5" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-style="italic" opacity="1">they do not eliminate it. Design as if injection will sometimes succeed.</text>
+<rect x="626" y="84" width="250" height="300" rx="16" fill="#FDE8E6" fill-opacity="0.45" stroke="#D0443A" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="642.0" y="102.0" font-size="12.5" font-weight="700" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">The dangerous combination</text>
+<rect x="646.0" y="121.0" width="210" height="42" rx="21.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="751.0" y="142.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Private data</text>
+<text x="751.0" y="181.0" font-size="18" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">+</text>
+<rect x="646.0" y="199.0" width="210" height="42" rx="21.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6"/>
+<text x="751.0" y="220.0" font-size="12.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Untrusted content</text>
+<text x="751.0" y="259.0" font-size="18" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">+</text>
+<rect x="646.0" y="277.0" width="210" height="42" rx="21.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<text x="751.0" y="298.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">A way to send data out</text>
+<text x="751.0" y="350.0" font-size="13" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Remove any one of the three.</text>
+</svg>

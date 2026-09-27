@@ -1,0 +1,27 @@
+"""RAG Q37: the lifecycle of an index version, promoted through an alias with the previous kept for rollback."""
+import sys; sys.path.insert(0, __file__.rsplit("/diagrams/", 1)[0] + "/scripts")
+from svg import Svg
+
+s = Svg(880, 400, "Index versions: build, gate, swap the alias", "A new chunker or embedding model means a new index; the golden set decides whether it goes live.")
+s.add('<circle cx="56" cy="190" r="9" fill="#344054"/>')
+s.arrow([(65, 190), (96, 190)], "slate")
+s.box(98, 156, 164, 68, "Building", ["corpus + chunking", "+ embedding model"], "compute", size=14)
+s.arrow([(262, 190), (296, 190)], "compute")
+s.hexagon(378, 190, 160, 72, "Evaluating", "amber")
+s.text(366, 246, "run the golden set", size=11, fill="#7A5300", anchor="end")
+s.arrow([(458, 190), (560, 190)], "output", label="passes", label_dy=-11)
+s.box(562, 156, 128, 68, "Live", ["serves traffic"], "output", size=14)
+s.arrow([(378, 226), (378, 300)], "fail")
+s.text(388, 272, "regresses", size=11.5, fill="#8E2A23", weight=600, anchor="start")
+s.pill(378, 322, 150, 40, "Discarded", "fail")
+s.box(730, 290, 128, 68, "Previous", ["kept for rollback"], "slate", size=14)
+s.arrow([(660, 224), (660, 324), (726, 324)], "slate")
+s.text(670, 252, "newer promoted", size=11.5, fill="#344054", weight=600, anchor="start")
+s.arrow([(794, 290), (794, 190), (694, 190)], "compute", dashed=True)
+s.text(804, 250, "rollback", size=11.5, fill="#1B418C", weight=600, anchor="start")
+# alias pointer
+s.pill(626, 104, 170, 34, "alias kb_current", "pink", size=12, mono=True)
+s.arrow([(626, 121), (626, 154)], "pink")
+s.text(98, 308, "kb_v42_e5large_c512", size=11.5, fill="#1B418C", mono=True, anchor="start")
+s.text(98, 326, "named after what shapes it", size=11, fill="#667085", anchor="start")
+s.save(__file__.rsplit("/diagrams/", 1)[0] + "/assets/03-retrieval-augmented-generation-rag/q37-index-versions.svg")

@@ -1,0 +1,142 @@
+{
+  "out": "assets/01-llm-fundamentals/q22-temperature.svg",
+  "title": {
+    "text": "Temperature reshapes the same logits",
+    "subtitle": "Next token after “The capital of France is” — illustrative logits, softmax(z / T)"
+  },
+  "data": {
+    "values": [
+      {
+        "token": "Paris",
+        "T": "T = 0.5",
+        "p": 0.9672
+      },
+      {
+        "token": "Lyon",
+        "T": "T = 0.5",
+        "p": 0.0264
+      },
+      {
+        "token": "Rome",
+        "T": "T = 0.5",
+        "p": 0.0053
+      },
+      {
+        "token": "the",
+        "T": "T = 0.5",
+        "p": 0.0011
+      },
+      {
+        "token": "banana",
+        "T": "T = 0.5",
+        "p": 0.0
+      },
+      {
+        "token": "Paris",
+        "T": "T = 1.0",
+        "p": 0.7841
+      },
+      {
+        "token": "Lyon",
+        "T": "T = 1.0",
+        "p": 0.1296
+      },
+      {
+        "token": "Rome",
+        "T": "T = 1.0",
+        "p": 0.0582
+      },
+      {
+        "token": "the",
+        "T": "T = 1.0",
+        "p": 0.0262
+      },
+      {
+        "token": "banana",
+        "T": "T = 1.0",
+        "p": 0.0019
+      },
+      {
+        "token": "Paris",
+        "T": "T = 2.0",
+        "p": 0.5231
+      },
+      {
+        "token": "Lyon",
+        "T": "T = 2.0",
+        "p": 0.2127
+      },
+      {
+        "token": "Rome",
+        "T": "T = 2.0",
+        "p": 0.1426
+      },
+      {
+        "token": "the",
+        "T": "T = 2.0",
+        "p": 0.0956
+      },
+      {
+        "token": "banana",
+        "T": "T = 2.0",
+        "p": 0.026
+      }
+    ]
+  },
+  "width": 690,
+  "height": 260,
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "token",
+      "type": "nominal",
+      "sort": [
+        "Paris",
+        "Lyon",
+        "Rome",
+        "the",
+        "banana"
+      ],
+      "title": null,
+      "axis": {
+        "labelAngle": 0,
+        "labelFontSize": 13
+      }
+    },
+    "xOffset": {
+      "field": "T",
+      "sort": [
+        "T = 0.5",
+        "T = 1.0",
+        "T = 2.0"
+      ]
+    },
+    "y": {
+      "field": "p",
+      "type": "quantitative",
+      "title": "probability",
+      "axis": {
+        "format": ".0%"
+      }
+    },
+    "color": {
+      "field": "T",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+        "range": [
+          "#6D4AE0",
+          "#2F6FE4",
+          "#C98A06"
+        ]
+      },
+      "sort": [
+        "T = 0.5",
+        "T = 1.0",
+        "T = 2.0"
+      ]
+    }
+  }
+}

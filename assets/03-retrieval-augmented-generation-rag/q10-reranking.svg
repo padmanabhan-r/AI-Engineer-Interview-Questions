@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-label="Re-ranking: recall first, precision second">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="398" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Re-ranking: recall first, precision second</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A cheap retriever casts a wide net; a cross-encoder reads each pair together and keeps only the best few.</text>
+<rect x="28.0" y="130.0" width="100" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="78.0" y="150.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Query</text>
+<path d="M128.0,150.0 L156.0,150.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="158" y="116" width="170" height="68" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="158" y="116" width="6" height="68" rx="3" fill="#2F6FE4"/>
+<text x="246.0" y="142.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Hybrid retrieval</text>
+<text x="246.0" y="155.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">fast, tuned for recall</text>
+<path d="M328.0,150.0 L358.0,150.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="360" y="108" width="250" height="84" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="360" y="108" width="6" height="84" rx="3" fill="#C98A06"/>
+<text x="488.0" y="134.5" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Cross-encoder</text>
+<text x="488.0" y="147.3" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">[CLS] query [SEP] passage [SEP]</text>
+<text x="488.0" y="162.8" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">full attention → one score</text>
+<path d="M610.0,150.0 L640.0,150.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<rect x="642" y="116" width="90" height="68" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="642" y="116" width="6" height="68" rx="3" fill="#3E8E2F"/>
+<text x="690.0" y="142.2" font-size="13.5" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Top 5</text>
+<text x="690.0" y="155.1" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">to prompt</text>
+<path d="M732.0,150.0 L760.0,150.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="762" y="116" width="90" height="68" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="762" y="116" width="6" height="68" rx="3" fill="#6D4AE0"/>
+<text x="810.0" y="142.2" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLM</text>
+<text x="810.0" y="155.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">answers</text>
+<rect x="193" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="214" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="224" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="234" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="244" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="254" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="264" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="274" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="284" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="294" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="193" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="203" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="213" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="223" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="233" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="243" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="253" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="263" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="273" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="283" y="304" width="8" height="8" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<text x="243.0" y="332.0" font-size="12" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">100 candidates</text>
+<text x="243.0" y="350.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">(50–200 typical)</text>
+<text x="485.0" y="232.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">one forward pass per candidate</text>
+<text x="485.0" y="250.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">~100 on a GPU: tens to low hundreds of ms</text>
+<rect x="655" y="214" width="11" height="11" rx="3" fill="#3E8E2F" fill-opacity="0.85"/>
+<rect x="668" y="214" width="11" height="11" rx="3" fill="#3E8E2F" fill-opacity="0.85"/>
+<rect x="681" y="214" width="11" height="11" rx="3" fill="#3E8E2F" fill-opacity="0.85"/>
+<rect x="694" y="214" width="11" height="11" rx="3" fill="#3E8E2F" fill-opacity="0.85"/>
+<rect x="707" y="214" width="11" height="11" rx="3" fill="#3E8E2F" fill-opacity="0.85"/>
+<text x="687.0" y="244.0" font-size="12" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">5 kept (3–10 typical)</text>
+<text x="687.0" y="262.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">fewer tokens,</text>
+<text x="687.0" y="278.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">less lost-in-the-middle</text>
+<line x1="360" y1="300" x2="852" y2="300" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="372.0" y="324.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">It cannot fix recall: a passage missed in the first stage never reaches the reranker.</text>
+<text x="372.0" y="344.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Pick the candidate count where first-stage recall@N plateaus.</text>
+<text x="372.0" y="364.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">A calibrated top-score threshold lets the system answer &quot;not found&quot;.</text>
+</svg>

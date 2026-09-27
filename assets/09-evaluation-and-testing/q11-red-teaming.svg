@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-label="Red teaming an LLM application">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><marker id="mD6408F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D6408F"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="458" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Red teaming an LLM application</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Attack the whole system as an adversary would, then turn every successful attack into a regression test.</text>
+<rect x="32" y="94" width="216" height="236" rx="14" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="32" y="94" width="6" height="236" rx="3" fill="#1F3864"/>
+<text x="140.0" y="116.0" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Threat model + policy</text>
+<rect x="44.0" y="146.0" width="192" height="26" rx="13.0" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.6"/>
+<text x="140.0" y="159.0" font-size="11.5" font-weight="600" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">jailbreaks</text>
+<rect x="44.0" y="179.0" width="192" height="26" rx="13.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6"/>
+<text x="140.0" y="192.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">injection via documents</text>
+<rect x="44.0" y="212.0" width="192" height="38" rx="19.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6"/>
+<text x="140.0" y="223.9" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">system-prompt or data</text>
+<text x="140.0" y="238.2" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">exfiltration</text>
+<rect x="44.0" y="257.0" width="192" height="26" rx="13.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<text x="140.0" y="270.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tool misuse</text>
+<rect x="44.0" y="290.0" width="192" height="26" rx="13.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="140.0" y="303.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">cost abuse</text>
+<text x="140.0" y="346.0" font-size="11" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">harm policy with severity levels</text>
+<path d="M248.0,145.0 L280.0,145.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="282" y="110" width="164" height="70" rx="12" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.8"/>
+<rect x="282" y="110" width="6" height="70" rx="3" fill="#D6408F"/>
+<text x="367.0" y="129.5" font-size="13" font-weight="700" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Manual attacks</text>
+<text x="367.0" y="141.8" font-size="11.5" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">security, domain,</text>
+<text x="367.0" y="157.3" font-size="11.5" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">multilingual testers</text>
+<path d="M446.0,145.0 L478.0,145.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<rect x="480" y="110" width="164" height="70" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="480" y="110" width="6" height="70" rx="3" fill="#6D4AE0"/>
+<text x="565.0" y="129.5" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Automated attacks</text>
+<text x="565.0" y="141.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">garak, PyRIT,</text>
+<text x="565.0" y="157.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">attacker LLMs</text>
+<path d="M644.0,145.0 L676.0,145.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="678" y="110" width="164" height="70" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="678" y="110" width="6" height="70" rx="3" fill="#C98A06"/>
+<text x="763.0" y="137.2" font-size="13" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Triage</text>
+<text x="763.0" y="149.6" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">by severity</text>
+<path d="M760.0,180.0 L760.0,260.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<rect x="678" y="262" width="164" height="70" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="678" y="262" width="6" height="70" rx="3" fill="#2F6FE4"/>
+<text x="763.0" y="289.2" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Fix</text>
+<text x="763.0" y="301.6" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">at the right layer</text>
+<path d="M678.0,297.0 L652.0,297.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<polygon points="510.0,262.0 614.0,262.0 649.0,297.0 614.0,332.0 510.0,332.0 475.0,297.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<text x="562.0" y="297.0" font-size="13" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Regression suite</text>
+<path d="M562.0,262.0 L562.0,182.0" fill="none" stroke="#3E8E2F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="572.0" y="213.9" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">re-run every</text>
+<text x="572.0" y="228.2" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">successful attack</text>
+<rect x="282" y="368" width="586" height="64" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="298.0" y="388.0" font-size="12" font-weight="700" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">The worst findings come from what the system can do, not what it can say.</text>
+<text x="298.0" y="410.0" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Spend the budget on tool permissions and indirect injection.</text>
+</svg>

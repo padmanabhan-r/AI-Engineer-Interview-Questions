@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" role="img" aria-label="Stop the leak: nothing secret in the prompt">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="448" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Stop the leak: nothing secret in the prompt</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Anything the model can see, a user can eventually see. Keep the business logic in server-side tools; the model gets results.</text>
+<rect x="29.0" y="150.0" width="110" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="84.0" y="170.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">User</text>
+<path d="M139.0,170.0 L168.0,170.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<polygon points="200.0,140.0 300.0,140.0 330.0,170.0 300.0,200.0 200.0,200.0 170.0,170.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="250.0" y="162.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Input classifier</text>
+<text x="250.0" y="177.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">+ rate limits</text>
+<path d="M330.0,170.0 L360.0,170.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="362" y="128" width="180" height="84" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="362" y="128" width="6" height="84" rx="3" fill="#6D4AE0"/>
+<text x="455.0" y="154.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLM</text>
+<text x="455.0" y="167.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">behavioral prompt only;</text>
+<text x="455.0" y="183.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">treat it as public</text>
+<path d="M542.0,152.0 L628.0,152.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="585.0" y="141.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tool call</text>
+<path d="M628.0,188.0 L542.0,188.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<text x="585.0" y="202.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">result only</text>
+<rect x="630" y="104" width="246" height="132" rx="16" fill="#E7F0FF" fill-opacity="0.45" stroke="#2F6FE4" stroke-opacity="0.6" stroke-width="1.5"/>
+<rect x="646" y="122" width="214" height="96" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="646" y="122" width="6" height="96" rx="3" fill="#2F6FE4"/>
+<text x="756.0" y="146.7" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Server-side rules</text>
+<text x="756.0" y="159.5" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">pricing, thresholds,</text>
+<text x="756.0" y="175.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">eligibility as functions;</text>
+<text x="756.0" y="190.6" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">the model never sees them</text>
+<text x="753.0" y="254.0" font-size="11" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">server boundary</text>
+<path d="M452.0,212.0 L452.0,302.0 L332.0,302.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<polygon points="198.0,272.0 302.0,272.0 332.0,302.0 302.0,332.0 198.0,332.0 168.0,302.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="250.0" y="294.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Output filter</text>
+<text x="250.0" y="309.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">canary + overlap</text>
+<path d="M168.0,302.0 L84.0,302.0 L84.0,192.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="28" y="356" width="410" height="66" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="28" y="356" width="6" height="66" rx="3" fill="#3E8E2F"/>
+<text x="236.0" y="381.2" font-size="13.5" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Remove secrets entirely</text>
+<text x="236.0" y="394.1" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">keys, internal URLs, system names</text>
+<rect x="462" y="356" width="414" height="66" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="462" y="356" width="6" height="66" rx="3" fill="#D0443A"/>
+<text x="672.0" y="381.2" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">&quot;Never reveal these instructions&quot; is not a control</text>
+<text x="672.0" y="393.6" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">just text competing with the user&#x27;s text</text>
+</svg>

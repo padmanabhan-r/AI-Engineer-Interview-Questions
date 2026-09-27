@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-label="Multimodal search over images and video">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="538" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Multimodal search over images and video</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Index every item as vectors and as text, search both, then fuse and rerank so results land on moments, not files.</text>
+<rect x="24" y="312" width="852" height="208" rx="16" fill="#E7F0FF" fill-opacity="0.45" stroke="#2F6FE4" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="504.0" font-size="12.5" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">QUERY · p95 &lt; ~300 ms</text>
+<rect x="24" y="76" width="852" height="222" rx="16" fill="#E3F6F2" fill-opacity="0.45" stroke="#0E8C7E" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="94.0" font-size="12.5" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">INDEX · every item twice</text>
+<rect x="32.0" y="175.0" width="116" height="50" rx="25.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="90.0" y="192.2" font-size="12.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Images +</text>
+<text x="90.0" y="207.9" font-size="12.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">videos</text>
+<path d="M148.0,190.0 L158.0,190.0 L158.0,146.0 L170.0,146.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M148.0,212.0 L158.0,212.0 L158.0,256.0 L170.0,256.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="172" y="110" width="164" height="72" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="172" y="110" width="6" height="72" rx="3" fill="#0E8C7E"/>
+<text x="257.0" y="138.2" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Shot detection</text>
+<text x="257.0" y="151.1" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">keyframe per ~5 s</text>
+<rect x="172" y="228" width="164" height="56" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="172" y="228" width="6" height="56" rx="3" fill="#0E8C7E"/>
+<text x="257.0" y="248.2" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">ASR</text>
+<text x="257.0" y="261.1" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">speech transcripts</text>
+<path d="M336.0,134.0 L358.0,134.0 L358.0,118.0 L380.0,118.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M336.0,158.0 L358.0,158.0 L358.0,191.0 L380.0,191.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="382" y="92" width="184" height="54" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="382" y="92" width="6" height="54" rx="3" fill="#6D4AE0"/>
+<text x="477.0" y="111.2" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Image-text embed</text>
+<text x="477.0" y="124.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">CLIP / SigLIP-style</text>
+<rect x="382" y="166" width="184" height="50" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="382" y="166" width="6" height="50" rx="3" fill="#2F6FE4"/>
+<text x="477.0" y="191.0" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Captions + OCR</text>
+<path d="M566.0,118.0 L594.0,118.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M566.0,191.0 L580.0,191.0 L580.0,214.0 L594.0,214.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<path d="M336.0,256.0 L594.0,256.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<path d="M595.0,94.0 L595.0,142.0 A75.0,9 0 0 0 745.0,142.0 L745.0,94.0" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<ellipse cx="670" cy="94.0" rx="75.0" ry="9" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<text x="670.0" y="123.0" font-size="13" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1"></text>
+<text x="670.0" y="116.0" font-size="13" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Vector index</text>
+<text x="670.0" y="136.0" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">~770M vectors</text>
+<path d="M595.0,202.0 L595.0,274.0 A75.0,9 0 0 0 745.0,274.0 L745.0,202.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<ellipse cx="670" cy="202.0" rx="75.0" ry="9" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<text x="670.0" y="243.0" font-size="13" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Text index</text>
+<rect x="32.0" y="359.0" width="188" height="42" rx="21.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="126.0" y="380.0" font-size="12.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Text or image query</text>
+<path d="M220.0,380.0 L578.0,380.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="399.0" y="369.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">search both indexes</text>
+<rect x="580" y="350" width="176" height="62" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="580" y="350" width="6" height="62" rx="3" fill="#C98A06"/>
+<text x="671.0" y="373.2" font-size="14" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Fuse</text>
+<text x="671.0" y="386.5" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">group by video + time</text>
+<path d="M670.0,283.0 L670.0,348.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<path d="M745.0,118.0 L800.0,118.0 L800.0,381.0 L758.0,381.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M668.0,412.0 L668.0,460.0 L562.0,460.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<rect x="390" y="430" width="170" height="60" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="390" y="430" width="6" height="60" rx="3" fill="#C98A06"/>
+<text x="478.0" y="452.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Rerank top 50</text>
+<text x="478.0" y="465.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">vision-language model</text>
+<path d="M390.0,460.0 L324.0,460.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="122.0" y="439.0" width="200" height="42" rx="21.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="222.0" y="460.0" font-size="12.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Moments + timestamps</text>
+</svg>

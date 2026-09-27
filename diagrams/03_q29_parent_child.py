@@ -1,0 +1,23 @@
+"""RAG Q29: parent-child chunking; match on small children, hand the LLM their larger parent."""
+import sys; sys.path.insert(0, __file__.rsplit("/diagrams/", 1)[0] + "/scripts")
+from svg import Svg
+
+s = Svg(880, 420, "Parent-child chunking", "Retrieve on small, sharp child chunks; give the LLM the larger parent, so the hit arrives with its context.")
+s.pill(80, 205, 104, 40, "Query", "human")
+s.region(166, 84, 406, 302, "Document", "slate", dashed=False)
+s.region(186, 112, 366, 142, "Parent · Section 4.2", "data")
+s.region(186, 272, 366, 96, "Parent · Section 4.3", "data")
+s.pill(300, 162, 190, 34, "Child 1", "slate", size=12.5)
+s.pill(300, 205, 190, 34, "Child 2 · best match", "output", size=12.5)
+s.pill(300, 324, 190, 34, "Child 3", "slate", size=12.5)
+s.arrow([(132, 205), (212, 205)], "human")
+s.text(478, 162, "~1,000–2,000 tokens", size=11.5, fill="#0A5A51", weight=700)
+s.text(478, 184, "children: ~100–300", size=11, fill="#0A5A51")
+s.text(478, 201, "tokens, each stores", size=11, fill="#0A5A51")
+s.text(478, 218, "parent_id", size=11, fill="#0A5A51", mono=True)
+s.arrow([(552, 183), (618, 183)], "output")
+s.text(585, 150, "return", size=11.5, fill="#275C1C", weight=600)
+s.text(585, 166, "parent", size=11.5, fill="#275C1C", weight=600)
+s.box(620, 128, 236, 110, "LLM context", ["all of Section 4.2:", "definitions, exceptions,", "table header"], "model", size=14)
+s.box(620, 262, 236, 124, "At query time", ["retrieve ~20 children", "map to parents, dedupe", "rank by best child score", "keep 3–5 parents"], "slate", size=13.5)
+s.save(__file__.rsplit("/diagrams/", 1)[0] + "/assets/03-retrieval-augmented-generation-rag/q29-parent-child.svg")

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430" role="img" aria-label="Text to vector: tokenize, contextualize, pool, normalize">
+<defs><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="428" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Text to vector: tokenize, contextualize, pool, normalize</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">One context-aware vector per token, pooled into a single vector and scaled to unit length.</text>
+<rect x="20.0" y="130.0" width="128" height="40" rx="20.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="84.0" y="150.0" font-size="12.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">&quot;river bank&quot;</text>
+<path d="M148.0,150.0 L174.0,150.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="176" y="114" width="158" height="72" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="176" y="114" width="6" height="72" rx="3" fill="#667085"/>
+<text x="258.0" y="134.5" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tokenizer</text>
+<text x="258.0" y="147.3" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">subword IDs, truncated</text>
+<text x="258.0" y="162.8" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">at the max length</text>
+<path d="M334.0,150.0 L360.0,150.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="362" y="114" width="172" height="72" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="362" y="114" width="6" height="72" rx="3" fill="#6D4AE0"/>
+<text x="451.0" y="134.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Transformer layers</text>
+<text x="451.0" y="147.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">self-attention gives</text>
+<text x="451.0" y="162.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">each token its context</text>
+<path d="M534.0,150.0 L576.0,150.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="730.0" y="106.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">per-token vectors</text>
+<rect x="640" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.25" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="658" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.55" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="676" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.85" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="694" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.40" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="712" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.70" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="730" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.25" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="748" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.55" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="766" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.85" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="784" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.40" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="802" y="128" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.70" stroke="#6D4AE0" stroke-width="1"/>
+<text x="632.0" y="137.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="end" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">river</text>
+<rect x="640" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.25" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="658" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.55" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="676" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.85" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="694" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.40" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="712" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.70" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="730" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.25" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="748" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.55" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="766" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.85" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="784" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.40" stroke="#6D4AE0" stroke-width="1"/>
+<rect x="802" y="152" width="16" height="16" rx="3" fill="#6D4AE0" fill-opacity="0.70" stroke="#6D4AE0" stroke-width="1"/>
+<text x="632.0" y="161.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="end" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">bank</text>
+<text x="730.0" y="194.0" font-size="12" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">n × d</text>
+<text x="730.0" y="212.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">&quot;bank&quot; here ≠ &quot;bank&quot; in &quot;bank loan&quot;</text>
+<path d="M730.0,224.0 L730.0,284.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<rect x="636" y="286" width="190" height="72" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="636" y="286" width="6" height="72" rx="3" fill="#C98A06"/>
+<text x="734.0" y="306.5" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Pooling</text>
+<text x="734.0" y="319.3" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">mean or [CLS] for encoders,</text>
+<text x="734.0" y="334.8" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">last token for decoders</text>
+<path d="M636.0,322.0 L576.0,322.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="404" y="286" width="170" height="72" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="404" y="286" width="6" height="72" rx="3" fill="#2F6FE4"/>
+<text x="492.0" y="306.5" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">L2 normalize</text>
+<text x="492.0" y="319.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">cosine similarity</text>
+<text x="492.0" y="334.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">= dot product</text>
+<path d="M404.0,322.0 L324.0,322.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="118" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.25" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="138" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.55" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="158" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.85" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="178" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.40" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="198" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.70" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="218" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.25" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="238" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.55" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="258" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.85" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="278" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.40" stroke="#3E8E2F" stroke-width="1"/>
+<rect x="298" y="308" width="18" height="18" rx="3" fill="#3E8E2F" fill-opacity="0.70" stroke="#3E8E2F" stroke-width="1"/>
+<text x="216.0" y="294.0" font-size="12" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">one vector, d dims, length 1</text>
+<text x="216.0" y="346.0" font-size="12" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">1 × d</text>
+<text x="440.0" y="396.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Pitfalls: text past the input limit is silently dropped, and many models need query: / passage: prefixes.</text>
+</svg>

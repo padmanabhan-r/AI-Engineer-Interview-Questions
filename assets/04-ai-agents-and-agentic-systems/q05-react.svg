@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-label="ReAct: reason, act, observe, repeat">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="458" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">ReAct: reason, act, observe, repeat</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The model writes a thought and a tool call; the harness runs the tool and feeds the real result back.</text>
+<rect x="55.0" y="88.0" width="170" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="140.0" y="108.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Goal / question</text>
+<path d="M140.0,128.0 L140.0,158.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="60" y="160" width="160" height="66" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="60" y="160" width="6" height="66" rx="3" fill="#6D4AE0"/>
+<text x="143.0" y="177.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Thought</text>
+<text x="143.0" y="190.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">reasons about the</text>
+<text x="143.0" y="206.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">next step</text>
+<path d="M220.0,193.0 L292.0,193.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="256.0" y="182.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">picks a tool</text>
+<polygon points="326.0,162.0 414.0,162.0 445.0,193.0 414.0,224.0 326.0,224.0 295.0,193.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="370.0" y="193.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Action</text>
+<text x="370.0" y="237.0" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">tool call</text>
+<path d="M370.0,250.0 L370.0,298.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="380.0" y="274.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">harness runs it</text>
+<rect x="290" y="300" width="160" height="62" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="290" y="300" width="6" height="62" rx="3" fill="#0E8C7E"/>
+<text x="373.0" y="323.2" font-size="14" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Observation</text>
+<text x="373.0" y="336.5" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">real result, fed back</text>
+<path d="M290,331 C200,331 180,300 180,228" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<text x="370.0" y="380.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">grounds the next thought</text>
+<path d="M100.0,226.0 L100.0,376.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="92.0" y="300.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">when done</text>
+<rect x="55.0" y="380.0" width="170" height="40" rx="20.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="140.0" y="400.0" font-size="12.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">finish → answer</text>
+<rect x="480" y="84" width="396" height="350" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="496.0" y="102.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Trace</text>
+<rect x="498" y="112" width="360" height="34" rx="8" fill="#F1ECFF" stroke="#6D4AE0" stroke-opacity="0.5"/>
+<text x="510.0" y="129.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Thought:</text>
+<text x="604.0" y="129.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">who made Minecraft, then who bought them</text>
+<rect x="498" y="155" width="360" height="34" rx="8" fill="#FFF4D6" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="510.0" y="172.0" font-size="12" font-weight="700" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Action:</text>
+<text x="604.0" y="172.0" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">search[&quot;Minecraft developer&quot;]</text>
+<rect x="498" y="198" width="360" height="34" rx="8" fill="#E3F6F2" stroke="#0E8C7E" stroke-opacity="0.5"/>
+<text x="510.0" y="215.0" font-size="12" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Observation:</text>
+<text x="604.0" y="215.0" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">developed by Mojang Studios</text>
+<rect x="498" y="241" width="360" height="34" rx="8" fill="#F1ECFF" stroke="#6D4AE0" stroke-opacity="0.5"/>
+<text x="510.0" y="258.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Thought:</text>
+<text x="604.0" y="258.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">now find who acquired Mojang</text>
+<rect x="498" y="284" width="360" height="34" rx="8" fill="#FFF4D6" stroke="#C98A06" stroke-opacity="0.5"/>
+<text x="510.0" y="301.0" font-size="12" font-weight="700" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Action:</text>
+<text x="604.0" y="301.0" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">search[&quot;Mojang acquisition&quot;]</text>
+<rect x="498" y="327" width="360" height="34" rx="8" fill="#E3F6F2" stroke="#0E8C7E" stroke-opacity="0.5"/>
+<text x="510.0" y="344.0" font-size="12" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Observation:</text>
+<text x="604.0" y="344.0" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">Microsoft acquired Mojang, 2014</text>
+<rect x="498" y="370" width="360" height="34" rx="8" fill="#E8F5E1" stroke="#3E8E2F" stroke-opacity="0.5"/>
+<text x="510.0" y="387.0" font-size="12" font-weight="700" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Action:</text>
+<text x="604.0" y="387.0" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">finish[&quot;Microsoft, in 2014&quot;]</text>
+</svg>

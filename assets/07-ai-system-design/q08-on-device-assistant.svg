@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="An on-device AI assistant">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="518" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">An on-device AI assistant</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A small 4-bit model runs locally on private data; only hard requests go to the cloud, and only with consent.</text>
+<rect x="24" y="80" width="600" height="420" rx="16" fill="#E3F6F2" fill-opacity="0.45" stroke="#0E8C7E" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="98.0" font-size="12.5" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">ON DEVICE · 8–16 GB shared RAM</text>
+<rect x="644" y="80" width="232" height="420" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="860.0" y="98.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">CLOUD</text>
+<rect x="43.0" y="129.0" width="150" height="42" rx="21.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="118.0" y="150.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">App surface</text>
+<path d="M193.0,150.0 L238.0,150.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<polygon points="318,108.0 396.0,150 318,192.0 240.0,150" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="318.0" y="142.2" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Local or</text>
+<text x="318.0" y="157.9" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">cloud?</text>
+<path d="M318.0,192.0 L318.0,246.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<text x="328.0" y="220.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">local</text>
+<rect x="208" y="248" width="220" height="76" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="208" y="248" width="6" height="76" rx="3" fill="#6D4AE0"/>
+<text x="321.0" y="270.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Local runtime</text>
+<text x="321.0" y="283.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">4-bit 1–4B model on the NPU</text>
+<text x="321.0" y="299.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">memory-mapped weights</text>
+<path d="M428.0,286.0 L458.0,286.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="460" y="254" width="146" height="64" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="460" y="254" width="6" height="64" rx="3" fill="#6D4AE0"/>
+<text x="536.0" y="278.2" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Task LoRA</text>
+<text x="536.0" y="291.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">adapters</text>
+<path d="M40.0,255.0 L40.0,317.0 A70.0,9 0 0 0 180.0,317.0 L180.0,255.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="110" cy="255.0" rx="70.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="110.0" y="291.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Local index</text>
+<text x="110.0" y="344.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">messages, notes</text>
+<path d="M180.0,286.0 L206.0,286.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M396.0,150.0 L668.0,150.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="532.0" y="139.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">hard task, with consent</text>
+<rect x="670" y="118" width="190" height="64" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="670" y="118" width="6" height="64" rx="3" fill="#667085"/>
+<text x="768.0" y="142.2" font-size="14" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Cloud model</text>
+<text x="768.0" y="155.5" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">stateless</text>
+<rect x="670" y="336" width="190" height="64" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="670" y="336" width="6" height="64" rx="3" fill="#667085"/>
+<text x="768.0" y="360.2" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Signed updates</text>
+<text x="768.0" y="373.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">over the air</text>
+<path d="M670.0,368.0 L318.0,368.0 L318.0,326.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m667085)"/>
+<rect x="44" y="400" width="562" height="84" rx="10" fill="#FFFFFF" stroke="#D0D5DD"/>
+<text x="60.0" y="420.0" font-size="12.5" font-weight="700" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Budget</text>
+<text x="60.0" y="442.0" font-size="12" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">3B at 4 bits ≈ 1.5 GB + KV + runtime;  phone budget ≈ 1.5–3 GB</text>
+<text x="60.0" y="464.0" font-size="12" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">tok/s ≲ bandwidth ÷ model bytes:  60 GB/s ÷ 1.6 GB ≈ 35 tok/s</text>
+</svg>

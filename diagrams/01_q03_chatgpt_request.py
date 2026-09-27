@@ -1,0 +1,42 @@
+"""LLM Fundamentals Q3: what happens after you hit Enter: edge, context, batch, prefill, decode, tools, stop."""
+import sys; sys.path.insert(0, __file__.rsplit("/diagrams/", 1)[0] + "/scripts")
+from svg import Svg
+
+s = Svg(880, 690, "Inside ChatGPT: after you hit Enter", "Prefill is compute-bound, decode is memory-bound, and cost scales with the whole resent context.")
+s.region(24, 80, 176, 590, "BROWSER", "human")
+s.region(212, 80, 300, 590, "ORCHESTRATOR", "slate")
+s.region(524, 80, 332, 590, "MODEL SERVER", "model")
+
+s.pill(112, 136, 140, 40, "Your message", "human")
+s.arrow([(182, 136), (262, 136)], "human")
+s.hexagon(362, 136, 196, 48, "Edge", "amber")
+s.text(362, 174, "auth · rate limit · abuse checks", size=11, fill="#7A5300")
+s.arrow([(362, 186), (362, 204)], "slate")
+s.box(232, 206, 260, 90, "Build context", ["system prompt, memory, files,", "tool schemas, prior turns", "(whole chat resent every turn)"], "slate", size=13.5)
+s.arrow([(362, 296), (362, 316)], "slate")
+s.pill(340, 336, 220, 38, "Join a continuous batch", "compute", size=12.5)
+s.arrow([(450, 336), (542, 336)], "compute")
+s.text(481, 322, "token IDs", size=11.5, weight=600, fill="#1B418C")
+
+s.box(544, 296, 212, 90, "Prefill", ["all prompt tokens, every layer,", "in parallel; fills the KV cache", "sets TTFT · compute-bound"], "model")
+s.arrow([(650, 386), (650, 420)], "model")
+s.arrow([(756, 342), (808, 342), (808, 366)], "model")
+s.cylinder(808, 404, 80, 70, "KV cache", "model", size=12)
+s.arrow([(808, 440), (808, 470), (760, 470)], "compute")
+s.text(816, 356, "write", size=11, fill="#3B2596", anchor="start")
+s.text(816, 458, "read", size=11, fill="#1B418C", anchor="start")
+s.box(544, 422, 212, 90, "Decode", ["one forward pass per token:", "sample, detokenize", "memory-bound"], "compute")
+s.arrow([(544, 456), (190, 456)], "output")
+s.text(366, 444, "each token, streamed via SSE", size=11.5, weight=600, fill="#275C1C")
+s.pill(112, 456, 150, 40, "Streamed reply", "output")
+
+# tools and stop
+s.box(232, 530, 260, 64, "Tools", ["orchestrator runs the call,", "appends the result"], "amber", size=13.5)
+s.arrow([(600, 512), (600, 548), (496, 548)], "amber")
+s.text(566, 538, "tool call", size=11.5, weight=600, fill="#7A5300")
+s.arrow([(494, 578), (664, 578), (664, 516)], "amber")
+s.text(600, 592, "decoding resumes", size=11.5, weight=600, fill="#7A5300")
+s.box(232, 610, 260, 48, "Stop", ["output checks, turn stored"], "slate", size=13.5)
+s.arrow([(730, 512), (730, 634), (496, 634)], "slate")
+s.text(624, 622, "end-of-turn or length limit", size=11.5, weight=600, fill="#344054")
+s.save(__file__.rsplit("/diagrams/", 1)[0] + "/assets/01-llm-fundamentals/q03-chatgpt-request.svg")

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" width="900" height="530" role="img" aria-label="Real-time transcription at 20k streams">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="528" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Real-time transcription at 20k streams</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Chunks from many streams share each GPU batch; partials stream back fast and are replaced by a final at each endpoint.</text>
+<rect x="30" y="150" width="110" height="140" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="30" y="150" width="6" height="140" rx="3" fill="#1F3864"/>
+<text x="88.0" y="196.7" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Clients</text>
+<text x="88.0" y="209.5" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">calls,</text>
+<text x="88.0" y="225.1" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">meetings,</text>
+<text x="88.0" y="240.6" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">captions</text>
+<path d="M140.0,184.0 L178.0,184.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<text x="159.0" y="172.0" font-size="10.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">audio</text>
+<path d="M178.0,262.0 L140.0,262.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="159.0" y="250.0" font-size="10.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">text</text>
+<rect x="180" y="110" width="146" height="280" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="180" y="110" width="6" height="280" rx="3" fill="#667085"/>
+<text x="256.0" y="218.9" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Gateway</text>
+<text x="256.0" y="231.8" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">WebSocket / gRPC</text>
+<text x="256.0" y="247.3" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">auth</text>
+<text x="256.0" y="262.8" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">session affinity</text>
+<text x="256.0" y="278.3" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">per-stream buffers</text>
+<rect x="346" y="84" width="530" height="256" rx="16" fill="#E7F0FF" fill-opacity="0.45" stroke="#2F6FE4" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="362.0" y="102.0" font-size="12.5" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">GPU WORKERS · streams per GPU at the latency SLO</text>
+<path d="M326.0,170.0 L350.0,170.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<polygon points="378.0,144.0 430.0,144.0 456.0,170.0 430.0,196.0 378.0,196.0 352.0,170.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="404.0" y="170.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">VAD</text>
+<text x="404.0" y="208.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">drop silence</text>
+<path d="M456.0,170.0 L476.0,170.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="478" y="112" width="190" height="124" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="478" y="112" width="6" height="124" rx="3" fill="#2F6FE4"/>
+<text x="576.0" y="130.0" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Cross-stream batcher</text>
+<rect x="512" y="144" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="528" y="144" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="544" y="144" width="14" height="14" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="560" y="144" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="512" y="160" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="528" y="160" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="544" y="160" width="14" height="14" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="560" y="160" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="512" y="176" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="528" y="176" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="544" y="176" width="14" height="14" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="560" y="176" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="512" y="192" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="528" y="192" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="544" y="192" width="14" height="14" rx="3" fill="#2F6FE4" fill-opacity="0.8" stroke="#2F6FE4" stroke-width="1"/>
+<rect x="560" y="192" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="576" y="144" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="592" y="144" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="608" y="144" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="624" y="144" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="576" y="160" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="592" y="160" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="608" y="160" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="624" y="160" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="576" y="176" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="592" y="176" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="608" y="176" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="624" y="176" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="576" y="192" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="592" y="192" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="608" y="192" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<rect x="624" y="192" width="14" height="14" rx="3" fill="#F2F4F7" fill-opacity="1" stroke="#D0D5DD" stroke-width="1"/>
+<text x="576.0" y="222.0" font-size="10.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">a batch = one chunk per stream</text>
+<path d="M668.0,170.0 L690.0,170.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="692" y="124" width="170" height="92" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="692" y="124" width="6" height="92" rx="3" fill="#6D4AE0"/>
+<text x="780.0" y="154.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Streaming ASR</text>
+<text x="780.0" y="167.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">on GPU; per-stream</text>
+<text x="780.0" y="182.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">decoder state</text>
+<polygon points="488.0,255.0 664.0,255.0 687.0,278.0 664.0,301.0 488.0,301.0 465.0,278.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="576.0" y="278.0" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Lag + real-time factor</text>
+<line x1="576" y1="236" x2="576" y2="255" stroke="#C98A06" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="576.0" y="320.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">backpressure: shed or use a smaller model</text>
+<path d="M777.0,216.0 L777.0,346.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="672" y="348" width="200" height="64" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="672" y="348" width="6" height="64" rx="3" fill="#6D4AE0"/>
+<text x="775.0" y="364.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Post-processing</text>
+<text x="775.0" y="377.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">punctuation, vocabulary,</text>
+<text x="775.0" y="392.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">diarisation</text>
+<path d="M672.0,372.0 L328.0,372.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="500.0" y="360.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">partials fast, finals at endpoints</text>
+<path d="M777.0,412.0 L777.0,440.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M682.0,453.0 L682.0,495.0 A95.0,9 0 0 0 872.0,495.0 L872.0,453.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="777" cy="453.0" rx="95.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="777.0" y="479.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Final transcripts</text>
+<text x="40.0" y="432.0" font-size="12" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">What the client sees</text>
+<rect x="40.0" y="453.0" width="104" height="34" rx="17.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="92.0" y="470.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">partial</text>
+<path d="M146.0,470.0 L170.0,470.0" fill="none" stroke="#667085" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="172.0" y="453.0" width="104" height="34" rx="17.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="224.0" y="470.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">partial</text>
+<path d="M278.0,470.0 L302.0,470.0" fill="none" stroke="#667085" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="304.0" y="453.0" width="104" height="34" rx="17.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="356.0" y="470.0" font-size="12" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">final</text>
+<text x="420.0" y="462.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">the final replaces</text>
+<text x="420.0" y="478.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">the partials</text>
+</svg>

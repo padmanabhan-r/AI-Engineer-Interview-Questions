@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="A music generation service">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="518" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A music generation service</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Plan the song&#x27;s sections, generate audio tokens section by section, decode, then check rights before it ships.</text>
+<rect x="28.0" y="119.0" width="196" height="42" rx="21.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="126.0" y="140.0" font-size="12.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Style prompt + lyrics</text>
+<path d="M224.0,140.0 L246.0,140.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<polygon points="279.0,109.0 413.0,109.0 444.0,140.0 413.0,171.0 279.0,171.0 248.0,140.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<text x="346.0" y="140.0" font-size="13.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Filters</text>
+<text x="346.0" y="188.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">artist names, policy</text>
+<path d="M444.0,140.0 L470.0,140.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<rect x="472" y="102" width="240" height="76" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="472" y="102" width="6" height="76" rx="3" fill="#2F6FE4"/>
+<text x="595.0" y="124.5" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Structure plan</text>
+<text x="595.0" y="137.8" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">sections + timing,</text>
+<text x="595.0" y="153.3" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">lyrics with section markers</text>
+<rect x="24" y="222" width="852" height="132" rx="16" fill="#F1ECFF" fill-opacity="0.45" stroke="#6D4AE0" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="338.0" font-size="12.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">AUDIO GENERATOR · codec tokens (RVQ)</text>
+<path d="M592.0,178.0 L592.0,210.0 L120.0,210.0 L120.0,244.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="50" y="246" width="164" height="60" rx="10" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="132.0" y="262.0" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">verse</text>
+<rect x="68.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="82.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="97.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="111.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="126.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="140.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="155.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="169.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="184.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="68.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="82.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="97.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="111.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="126.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="140.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="155.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="169.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="184.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="68.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="82.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="97.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="111.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="126.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="140.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="155.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="169.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="184.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<path d="M214.0,276.0 L256.0,276.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="258" y="246" width="164" height="60" rx="10" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="340.0" y="262.0" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">chorus</text>
+<rect x="276.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="290.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="305.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="319.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="334.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="348.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="363.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="377.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="392.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="276.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="290.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="305.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="319.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="334.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="348.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="363.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="377.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="392.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="276.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="290.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="305.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="319.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="334.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="348.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="363.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="377.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="392.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<path d="M422.0,276.0 L464.0,276.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="466" y="246" width="164" height="60" rx="10" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="548.0" y="262.0" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">verse</text>
+<rect x="484.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="498.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="513.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="527.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="542.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="556.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="571.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="585.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="600.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="484.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="498.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="513.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="527.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="542.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="556.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="571.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="585.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="600.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="484.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="498.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="513.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="527.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="542.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="556.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="571.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="585.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="600.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<path d="M630.0,276.0 L672.0,276.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="674" y="246" width="164" height="60" rx="10" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="756.0" y="262.0" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">chorus</text>
+<rect x="692.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="706.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="721.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="735.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="750.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="764.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="779.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="793.5" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="808.0" y="274" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.85"/>
+<rect x="692.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="706.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="721.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="735.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="750.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="764.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="779.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="793.5" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="808.0" y="282" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.6"/>
+<rect x="692.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="706.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="721.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="735.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="750.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="764.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="779.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="793.5" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<rect x="808.0" y="290" width="12" height="6" rx="1.5" fill="#6D4AE0" fill-opacity="0.35"/>
+<text x="706.0" y="326.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">previous audio as context, so choruses repeat</text>
+<path d="M415.0,354.0 L415.0,392.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="330" y="394" width="170" height="64" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="330" y="394" width="6" height="64" rx="3" fill="#6D4AE0"/>
+<text x="418.0" y="418.2" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Codec decoder</text>
+<text x="418.0" y="431.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">tokens → waveform</text>
+<path d="M330.0,426.0 L262.0,426.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="80.0" y="405.0" width="180" height="42" rx="21.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="170.0" y="426.0" font-size="12.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Streamed preview</text>
+<text x="170.0" y="462.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">within ~20 s</text>
+<path d="M500.0,426.0 L528.0,426.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<polygon points="562.0,394.0 678.0,394.0 710.0,426.0 678.0,458.0 562.0,458.0 530.0,426.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<text x="620.0" y="418.2" font-size="12.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Catalogue check</text>
+<text x="620.0" y="433.9" font-size="12.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">+ watermark</text>
+<path d="M710.0,426.0 L738.0,426.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<path d="M740.0,400.0 L740.0,452.0 A60.0,9 0 0 0 860.0,452.0 L860.0,400.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="800" cy="400.0" rx="60.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="800.0" y="431.0" font-size="12" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Storage + CDN</text>
+</svg>

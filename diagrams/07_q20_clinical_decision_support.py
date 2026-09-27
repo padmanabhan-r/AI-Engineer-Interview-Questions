@@ -1,0 +1,30 @@
+"""System design Q20: clinical decision support: rules give guarantees, the LLM adds breadth, a clinician decides."""
+import sys; sys.path.insert(0, __file__.rsplit("/diagrams/", 1)[0] + "/scripts")
+from svg import Svg
+
+s = Svg(900, 470, "Clinical decision support, not an autonomous diagnostician", "Coded rules give guarantees, the LLM adds breadth with citations, and a clinician makes every decision.")
+s.region(160, 84, 720, 250, "DECISION SUPPORT · suggests, never decides", "model")
+s.cylinder(86, 160, 118, 76, "EHR\nvia FHIR", "data", size=12.5)
+s.arrow([(145, 160), (178, 160)], "data")
+s.box(180, 130, 140, 60, "Normalise", ["the record"], "data", size=13.5)
+s.arrow([(320, 160), (353, 160)], "compute")
+s.box(355, 130, 150, 60, "Orchestrator", [], "compute", size=13.5)
+s.arrow([(505, 160), (608, 160)], "amber")
+s.box(610, 128, 250, 64, "Coded rules", ["sepsis, drug interactions", "deterministic guarantees"], "amber", size=13.5)
+# LLM path
+s.arrow([(430, 190), (430, 216), (255, 216), (255, 240)], "compute")
+s.box(180, 242, 150, 64, "Guidelines", ["retrieval"], "data", size=13.5)
+s.arrow([(330, 274), (360, 274)], "model")
+s.box(362, 242, 190, 64, "LLM differential", ["+ uncertainty, next tests"], "model", size=13.5)
+s.arrow([(552, 274), (578, 274)], "amber")
+s.hexagon(652, 274, 148, 60, "Verifier", "amber")
+s.text(640, 324, "uncited claims dropped", size=11, fill="#7A5300", anchor="end")
+# clinician in the loop
+s.arrow([(652, 304), (652, 360)], "amber")
+s.arrow([(800, 192), (800, 360)], "amber")
+s.box(600, 362, 260, 70, "Clinician decides", ["differential with evidence for", "and against, red flags"], "human", size=14)
+s.arrow([(600, 397), (512, 397)], "slate")
+s.cylinder(440, 397, 140, 64, "Audit log", "slate", size=12.5)
+s.text(40, 385, "PHI under HIPAA / GDPR", size=11.5, fill="#344054", anchor="start", weight=600)
+s.text(40, 405, "pinned model versions", size=11.5, fill="#344054", anchor="start", weight=600)
+s.save(__file__.rsplit("/diagrams/", 1)[0] + "/assets/07-ai-system-design/q20-clinical-decision-support.svg")

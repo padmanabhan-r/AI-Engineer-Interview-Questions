@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 490" width="880" height="490" role="img" aria-label="Subagents: delegate the reading, keep the summary">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="488" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Subagents: delegate the reading, keep the summary</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Each subagent burns its own fresh context window; the parent&#x27;s context grows only by the short result it returns.</text>
+<rect x="40" y="104" width="220" height="256" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="40" y="104" width="6" height="256" rx="3" fill="#6D4AE0"/>
+<text x="153.0" y="232.0" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1"></text>
+<text x="153.0" y="146.0" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Parent agent</text>
+<text x="153.0" y="170.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">delegates with a tool call</text>
+<text x="153.0" y="192.0" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">task(prompt, agent_type)</text>
+<text x="62.0" y="262.0" font-size="11.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">its context window</text>
+<rect x="62" y="274" width="180" height="24" rx="6" fill="#FFFFFF" stroke="#D0D5DD"/>
+<rect x="63.0" y="275" width="88.0" height="22" rx="5" fill="#6D4AE0" fill-opacity="0.75"/>
+<text x="107.0" y="286.0" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">own work</text>
+<rect x="153.0" y="275" width="16.0" height="22" rx="5" fill="#0E8C7E" fill-opacity="0.75"/>
+<rect x="171.0" y="275" width="16.0" height="22" rx="5" fill="#2F6FE4" fill-opacity="0.75"/>
+<text x="62.0" y="312.0" font-size="11" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">+ two short results only</text>
+<path d="M260.0,134.0 L448.0,134.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="354.0" y="120.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">find callers of auth API</text>
+<rect x="450" y="104" width="200" height="84" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="450" y="104" width="6" height="84" rx="3" fill="#0E8C7E"/>
+<text x="553.0" y="138.2" font-size="14" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Subagent A</text>
+<text x="553.0" y="151.5" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">read-only tools</text>
+<path d="M448.0,168.0 L262.0,168.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m0E8C7E)"/>
+<text x="354.0" y="184.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">short summary</text>
+<rect x="670" y="126" width="180" height="24" rx="6" fill="#FFFFFF" stroke="#D0D5DD"/>
+<rect x="671.0" y="127" width="169.0" height="22" rx="5" fill="#0E8C7E" fill-opacity="0.75"/>
+<text x="755.5" y="138.0" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">reads fifty files</text>
+<text x="670.0" y="164.0" font-size="11" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">its own fresh context window</text>
+<path d="M260.0,290.0 L448.0,290.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="354.0" y="276.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">summarize failing tests</text>
+<rect x="450" y="260" width="200" height="84" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="450" y="260" width="6" height="84" rx="3" fill="#2F6FE4"/>
+<text x="553.0" y="294.2" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Subagent B</text>
+<text x="553.0" y="307.5" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">shell</text>
+<path d="M448.0,324.0 L262.0,324.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m2F6FE4)"/>
+<text x="354.0" y="340.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">3 failures + causes</text>
+<rect x="670" y="282" width="180" height="24" rx="6" fill="#FFFFFF" stroke="#D0D5DD"/>
+<rect x="671.0" y="283" width="160.0" height="22" rx="5" fill="#2F6FE4" fill-opacity="0.75"/>
+<text x="751.0" y="294.0" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">test output</text>
+<text x="670.0" y="320.0" font-size="11" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">its own fresh context window</text>
+<rect x="40" y="400" width="810" height="60" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="40" y="400" width="6" height="60" rx="3" fill="#C98A06"/>
+<text x="448.0" y="422.2" font-size="13" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">The child knows only its brief</text>
+<text x="448.0" y="434.6" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">state the goal, constraints and answer shape; keep writes with one agent</text>
+</svg>

@@ -1,0 +1,30 @@
+"""Multimodal Q17: video understanding as index-then-retrieve, with the token arithmetic from the answer."""
+import sys; sys.path.insert(0, __file__.rsplit("/diagrams/", 1)[0] + "/scripts")
+from svg import Svg, PALETTE
+
+s = Svg(900, 460, "Video understanding: index, retrieve, answer", "Turn video into timestamped segments and retrieve the few that matter; tokens are the binding constraint.")
+s.region(24, 80, 572, 160, "Index the video", "data")
+s.pill(90, 160, 104, 40, "Video", "slate")
+s.box(190, 100, 190, 54, "Keyframes", ["on scene changes or motion"], "compute", size=13.5)
+s.box(190, 166, 190, 54, "Transcript", ["ASR, timestamped"], "amber", size=13.5)
+s.arrow([(142, 152), (188, 128)], "slate")
+s.arrow([(142, 168), (188, 192)], "slate")
+s.cylinder(500, 162, 170, 92, "Segments", "data")
+s.text(500, 186, "records + embeddings", size=11, fill=PALETTE["data"][2])
+s.arrow([(380, 127), (413, 148)], "compute")
+s.arrow([(380, 193), (413, 176)], "amber")
+
+s.box(620, 104, 256, 112, "Token budget", ["~250 tokens per frame", "× 1 fps ≈ 900k tokens / hour,", "before audio", "(rule of thumb)"], "amber", size=14)
+
+s.region(24, 258, 852, 182, "Per question", "compute")
+s.pill(100, 325, 120, 40, "Question", "human")
+s.arrow([(160, 325), (413, 325)], "human")
+s.box(415, 295, 170, 60, "Retrieve segments", ["the relevant ones"], "compute", size=13.5)
+s.arrow([(500, 208), (500, 293)], "data", dashed=True)
+s.arrow([(585, 325), (613, 325)], "compute")
+s.box(615, 290, 170, 70, "VLM", ["frames + transcript,", "timestamps beside frames"], "model", size=14, detail=11)
+s.arrow([(700, 360), (700, 382)], "output")
+s.pill(700, 402, 200, 36, "Answer + timestamps", "output", size=12.5)
+s.text(44, 396, "Fast events fall between sampled frames:", size=11.5, fill=PALETTE["fail"][2], anchor="start")
+s.text(44, 414, "test with questions about the specific moment.", size=11.5, fill=PALETTE["fail"][2], anchor="start")
+s.save(__file__.rsplit("/diagrams/", 1)[0] + "/assets/11-multimodal-ai/q17-video-understanding.svg")

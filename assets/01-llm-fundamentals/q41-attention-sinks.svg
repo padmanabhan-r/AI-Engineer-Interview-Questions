@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" role="img" aria-label="Attention sinks: keep the first tokens, roll the rest">
+<defs><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="418" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Attention sinks: keep the first tokens, roll the rest</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Softmax must put its mass somewhere; heads with nothing to attend to park it on the first token.</text>
+<rect x="44" y="132" width="36" height="36" rx="7" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="62.0" y="151.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">0</text>
+<rect x="86" y="132" width="36" height="36" rx="7" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="104.0" y="151.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">1</text>
+<rect x="128" y="132" width="36" height="36" rx="7" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="146.0" y="151.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">2</text>
+<rect x="170" y="132" width="36" height="36" rx="7" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="188.0" y="151.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">3</text>
+<rect x="212" y="132" width="36" height="36" rx="7" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6" stroke-dasharray="4 3" opacity="0.55"/>
+<text x="230.0" y="151.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.6">×</text>
+<rect x="254" y="132" width="36" height="36" rx="7" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6" stroke-dasharray="4 3" opacity="0.55"/>
+<text x="272.0" y="151.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.6">×</text>
+<rect x="296" y="132" width="36" height="36" rx="7" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6" stroke-dasharray="4 3" opacity="0.55"/>
+<text x="314.0" y="151.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.6">×</text>
+<rect x="338" y="132" width="36" height="36" rx="7" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6" stroke-dasharray="4 3" opacity="0.55"/>
+<text x="356.0" y="151.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.6">×</text>
+<rect x="380" y="132" width="36" height="36" rx="7" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6" stroke-dasharray="4 3" opacity="0.55"/>
+<text x="398.0" y="151.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.6">×</text>
+<rect x="422" y="132" width="36" height="36" rx="7" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.6" stroke-dasharray="4 3" opacity="0.55"/>
+<text x="440.0" y="151.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.6">×</text>
+<rect x="464" y="132" width="36" height="36" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="506" y="132" width="36" height="36" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="548" y="132" width="36" height="36" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="590" y="132" width="36" height="36" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="632" y="132" width="36" height="36" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="674" y="132" width="36" height="36" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="774.0" y="132.0" width="76" height="36" rx="18.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<text x="812.0" y="150.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">query</text>
+<path d="M794,132 C700,84 200,84 122,128" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<path d="M774.0,150.0 L716.0,150.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="470.0" y="116.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">the current query still attends to the sinks</text>
+<text x="125.0" y="186.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">sinks 0–3</text>
+<text x="125.0" y="201.0" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">kept forever</text>
+<text x="314.0" y="186.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">middle tokens</text>
+<text x="314.0" y="201.0" font-size="11" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">evicted, cannot be recalled</text>
+<text x="587.0" y="186.0" font-size="12" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">rolling window</text>
+<text x="587.0" y="201.0" font-size="11" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">last W tokens</text>
+<text x="44.0" y="230.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">position RoPE sees = cache slot, so distances never exceed training</text>
+<rect x="44" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="62.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">0</text>
+<rect x="86" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="104.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">1</text>
+<rect x="128" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="146.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">2</text>
+<rect x="170" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="188.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">3</text>
+<rect x="464" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="482.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">4</text>
+<rect x="506" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="524.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">5</text>
+<rect x="548" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="566.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">6</text>
+<rect x="590" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="608.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">7</text>
+<rect x="632" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="650.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">8</text>
+<rect x="674" y="244" width="36" height="26" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="692.0" y="258.0" font-size="12" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">9</text>
+<rect x="44" y="300" width="262" height="88" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="44" y="300" width="6" height="88" rx="3" fill="#6D4AE0"/>
+<text x="178.0" y="320.7" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Why a sink forms</text>
+<text x="178.0" y="333.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">weights must sum to 1; under causal</text>
+<text x="178.0" y="348.6" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">masking token 0 is visible to every</text>
+<text x="178.0" y="364.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">query, so it becomes the no-op</text>
+<rect x="320" y="300" width="262" height="88" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="320" y="300" width="6" height="88" rx="3" fill="#D0443A"/>
+<text x="454.0" y="320.7" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Evict the sink</text>
+<text x="454.0" y="333.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">the parked mass spills onto real</text>
+<text x="454.0" y="348.6" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">tokens and perplexity explodes</text>
+<text x="454.0" y="364.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">(StreamingLLM, 2023)</text>
+<rect x="596" y="300" width="260" height="88" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="596" y="300" width="6" height="88" rx="3" fill="#3E8E2F"/>
+<text x="729.0" y="320.7" font-size="13" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Built in now</text>
+<text x="729.0" y="333.1" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">a learnable sink token, or a</text>
+<text x="729.0" y="348.6" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">learned per-head sink logit</text>
+<text x="729.0" y="364.1" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">in the softmax</text>
+</svg>

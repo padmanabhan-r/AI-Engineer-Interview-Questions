@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 490" width="880" height="490" role="img" aria-label="Recursive Language Models: the input lives in a REPL">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="488" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Recursive Language Models: the input lives in a REPL</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">An inference strategy, not an architecture: the model writes code to split the input and calls itself on the pieces.</text>
+<rect x="75.0" y="86.0" width="150" height="36" rx="18.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="150.0" y="104.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Query</text>
+<path d="M150.0,122.0 L150.0,138.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="50" y="140" width="200" height="88" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="50" y="140" width="6" height="88" rx="3" fill="#6D4AE0"/>
+<text x="153.0" y="160.7" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Root LM</text>
+<text x="153.0" y="174.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">sees the query and what its</text>
+<text x="153.0" y="189.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">code prints, never the</text>
+<text x="153.0" y="205.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">whole input</text>
+<rect x="380" y="94" width="476" height="156" rx="16" fill="#E7F0FF" fill-opacity="0.45" stroke="#2F6FE4" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="840.0" y="112.0" font-size="12.5" font-weight="700" fill="#1B418C" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">PYTHON REPL · sandbox</text>
+<path d="M415.0,149.0 L415.0,207.0 A75.0,9 0 0 0 565.0,207.0 L565.0,149.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="490" cy="149.0" rx="75.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="490.0" y="183.0" font-size="13" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">context</text>
+<text x="490.0" y="232.0" font-size="11" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">the large input, as a variable</text>
+<rect x="598" y="130" width="240" height="84" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="598" y="130" width="6" height="84" rx="3" fill="#667085"/>
+<text x="721.0" y="148.7" font-size="13" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">The root&#x27;s code</text>
+<text x="721.0" y="161.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.85">grep  → a lookup</text>
+<text x="721.0" y="176.6" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.85">iterate  → an aggregation</text>
+<text x="721.0" y="192.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="0.85">chosen per query</text>
+<path d="M250.0,160.0 L378.0,160.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="314.0" y="148.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">code: peek, split</text>
+<path d="M410.0,206.0 L252.0,206.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="312.0" y="222.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">small printed result</text>
+<rect x="86" y="282" width="200" height="72" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-opacity="0.5" stroke-width="1.4"/>
+<rect x="78" y="290" width="200" height="72" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-opacity="0.5" stroke-width="1.4"/>
+<rect x="70" y="298" width="200" height="72" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="70" y="298" width="6" height="72" rx="3" fill="#6D4AE0"/>
+<text x="173.0" y="318.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Sub-LM calls</text>
+<text x="173.0" y="331.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">one small, focused slice each;</text>
+<text x="173.0" y="346.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">can themselves recurse</text>
+<path d="M120.0,228.0 L120.0,280.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="112.0" y="248.0" font-size="11" font-weight="600" fill="#3B2596" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">query on</text>
+<text x="112.0" y="262.0" font-size="11" font-weight="600" fill="#3B2596" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">each slice</text>
+<path d="M214.0,280.0 L214.0,230.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m6D4AE0)"/>
+<text x="224.0" y="256.0" font-size="11" font-weight="600" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">short answers</text>
+<rect x="380" y="270" width="476" height="186" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="396.0" y="288.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">One run</text>
+<rect x="398" y="300" width="440" height="24" rx="7" fill="#F1ECFF" stroke="#6D4AE0" stroke-opacity="0.5"/>
+<text x="410.0" y="313.0" font-size="11.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Root → REPL</text>
+<text x="530.0" y="313.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">code to peek at and split the input</text>
+<rect x="398" y="329" width="440" height="24" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-opacity="0.5"/>
+<text x="410.0" y="342.0" font-size="11.5" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">REPL → Root</text>
+<text x="530.0" y="342.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">a small printed result</text>
+<rect x="398" y="358" width="440" height="24" rx="7" fill="#F1ECFF" stroke="#6D4AE0" stroke-opacity="0.5"/>
+<text x="410.0" y="371.0" font-size="11.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Root → Sub-LM</text>
+<text x="530.0" y="371.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">the query on each slice</text>
+<rect x="398" y="387" width="440" height="24" rx="7" fill="#F1ECFF" stroke="#6D4AE0" stroke-opacity="0.5"/>
+<text x="410.0" y="400.0" font-size="11.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Sub-LM → Root</text>
+<text x="530.0" y="400.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">short answers</text>
+<rect x="398" y="416" width="440" height="24" rx="7" fill="#E8F5E1" stroke="#3E8E2F" stroke-opacity="0.5"/>
+<text x="410.0" y="429.0" font-size="11.5" font-weight="700" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Root → REPL</text>
+<text x="530.0" y="429.0" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">combine and verify</text>
+<rect x="40" y="390" width="320" height="80" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="40" y="390" width="6" height="80" rx="3" fill="#D0443A"/>
+<text x="203.0" y="406.7" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Trade-offs</text>
+<text x="203.0" y="419.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">cost and latency vary with the plan;</text>
+<text x="203.0" y="434.6" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">needs a sandbox; weak models split</text>
+<text x="203.0" y="450.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">poorly; plain lookups: retrieval is cheaper</text>
+</svg>

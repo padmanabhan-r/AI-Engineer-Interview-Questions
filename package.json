@@ -1,0 +1,26 @@
+{
+  "name": "ai-engineering-interview-answers",
+  "version": "1.0.0",
+  "description": "566 AI engineering interview questions across 15 topics, each answered in place: the answer first, the mechanism in a few bullets, one pitfall or trade-off, and a diagram, table, formula or code block where a picture beats words. Diagrams are Mermaid and formulas are LaTeX, both rendered by GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padmanabhan-r/AI-Engineer-Interview-Questions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/padmanabhan-r/AI-Engineer-Interview-Questions/issues"
+  },
+  "homepage": "https://github.com/padmanabhan-r/AI-Engineer-Interview-Questions#readme",
+  "devDependencies": {
+    "katex": "^0.18.9",
+    "vega": "^6.4.0",
+    "vega-lite": "^6.4.3"
+  }
+}

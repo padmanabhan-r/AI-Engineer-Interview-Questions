@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="How a multimodal model reads several inputs">
+<defs><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><marker id="mD6408F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D6408F"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="438" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">How a multimodal model reads several inputs</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Each modality becomes vectors in the LLM&#x27;s embedding space, and one transformer attends over all of them together.</text>
+<rect x="30.0" y="111.0" width="100" height="38" rx="19.0" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.6"/>
+<text x="80.0" y="130.0" font-size="13" font-weight="600" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Image</text>
+<rect x="30.0" y="206.0" width="100" height="38" rx="19.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<text x="80.0" y="225.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Audio</text>
+<rect x="30.0" y="301.0" width="100" height="38" rx="19.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="80.0" y="320.0" font-size="13" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Text</text>
+<rect x="160" y="101" width="170" height="58" rx="12" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.8"/>
+<rect x="160" y="101" width="6" height="58" rx="3" fill="#D6408F"/>
+<text x="248.0" y="122.2" font-size="13.5" font-weight="700" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Vision encoder</text>
+<text x="248.0" y="135.1" font-size="11.5" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">ViT patch embeddings</text>
+<rect x="160" y="196" width="170" height="58" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="160" y="196" width="6" height="58" rx="3" fill="#C98A06"/>
+<text x="248.0" y="217.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Audio encoder</text>
+<text x="248.0" y="230.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">log-Mel frames</text>
+<rect x="160" y="291" width="170" height="58" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="160" y="291" width="6" height="58" rx="3" fill="#2F6FE4"/>
+<text x="248.0" y="312.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tokenizer</text>
+<text x="248.0" y="325.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">text token IDs</text>
+<path d="M130.0,130.0 L158.0,130.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<path d="M130.0,225.0 L158.0,225.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<path d="M130.0,320.0 L158.0,320.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="380" y="140" width="160" height="70" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="380" y="140" width="6" height="70" rx="3" fill="#6D4AE0"/>
+<text x="463.0" y="159.5" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Projector</text>
+<text x="463.0" y="172.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">MLP, resampler or</text>
+<text x="463.0" y="187.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">query transformer</text>
+<path d="M330.0,130.0 L378.0,158.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<path d="M330.0,225.0 L378.0,195.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<rect x="590" y="110" width="22" height="22" rx="4" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="590" y="135" width="22" height="22" rx="4" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="590" y="160" width="22" height="22" rx="4" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.6"/>
+<rect x="590" y="185" width="22" height="22" rx="4" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.6"/>
+<rect x="590" y="210" width="22" height="22" rx="4" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.6"/>
+<rect x="590" y="235" width="22" height="22" rx="4" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.6"/>
+<rect x="590" y="260" width="22" height="22" rx="4" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<rect x="590" y="285" width="22" height="22" rx="4" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.6"/>
+<rect x="590" y="310" width="22" height="22" rx="4" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<rect x="590" y="335" width="22" height="22" rx="4" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="601.0" y="94.0" font-size="11" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">one sequence</text>
+<path d="M540.0,175.0 L584.0,175.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M330.0,320.0 L584.0,320.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="640" y="110" width="220" height="110" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="640" y="110" width="6" height="110" rx="3" fill="#6D4AE0"/>
+<text x="753.0" y="149.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Transformer backbone</text>
+<text x="753.0" y="162.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">attends over interleaved</text>
+<text x="753.0" y="178.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">text, image and audio tokens</text>
+<path d="M616.0,165.0 L638.0,165.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M750.0,220.0 L750.0,272.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<rect x="640" y="274" width="220" height="66" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="640" y="274" width="6" height="66" rx="3" fill="#3E8E2F"/>
+<text x="753.0" y="291.5" font-size="14" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Output</text>
+<text x="753.0" y="304.8" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">text, or tokens for an</text>
+<text x="753.0" y="320.3" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">image or audio decoder</text>
+<text x="36.0" y="392.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Token-heavy: one image is typically hundreds to a few thousand tokens, and that volume drives latency and cost.</text>
+<text x="36.0" y="414.0" font-size="11.5" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">CLIP-style dual encoders are different: they embed for search and classification, and do not generate.</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" width="880" height="560" role="img" aria-label="MCP: one protocol between AI apps and tools">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mD6408F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D6408F"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="558" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">MCP: one protocol between AI apps and tools</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Wrap a tool once as an MCP server and any MCP client can use it; the host hands its tools to the model as ordinary functions.</text>
+<rect x="30" y="84" width="396" height="236" rx="16" fill="#E7F0FF" fill-opacity="0.45" stroke="#2F6FE4" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="46.0" y="102.0" font-size="12.5" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Host app · IDE, chat app, agent</text>
+<rect x="52" y="160" width="160" height="80" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="52" y="160" width="6" height="80" rx="3" fill="#6D4AE0"/>
+<text x="135.0" y="184.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLM</text>
+<text x="135.0" y="197.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">gets MCP tools as</text>
+<text x="135.0" y="213.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">function definitions</text>
+<path d="M212,200 H232 M232,148 V252" fill="none" stroke="#6D4AE0" stroke-width="2"/>
+<path d="M232.0,148.0 L252.0,148.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<path d="M232.0,252.0 L252.0,252.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="254" y="118" width="150" height="60" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="254" y="118" width="6" height="60" rx="3" fill="#2F6FE4"/>
+<text x="332.0" y="140.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MCP client 1</text>
+<text x="332.0" y="153.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">one per server</text>
+<rect x="254" y="222" width="150" height="60" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="254" y="222" width="6" height="60" rx="3" fill="#2F6FE4"/>
+<text x="332.0" y="244.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MCP client 2</text>
+<text x="332.0" y="257.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">one per server</text>
+<path d="M410,148 L556,148" fill="none" stroke="#0E8C7E" stroke-width="2" marker-start="url(#m0E8C7E)" marker-end="url(#m0E8C7E)"/>
+<text x="483.0" y="134.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">stdio</text>
+<text x="483.0" y="163.0" font-size="10.5" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">local</text>
+<path d="M410,252 L556,252" fill="none" stroke="#D6408F" stroke-width="2" marker-start="url(#mD6408F)" marker-end="url(#mD6408F)"/>
+<text x="483.0" y="238.0" font-size="11.5" font-weight="600" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Streamable HTTP</text>
+<text x="483.0" y="267.0" font-size="10.5" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">remote, OAuth</text>
+<text x="483.0" y="200.0" font-size="11.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">JSON-RPC 2.0</text>
+<rect x="562" y="110" width="284" height="76" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="562" y="110" width="6" height="76" rx="3" fill="#0E8C7E"/>
+<text x="707.0" y="140.2" font-size="14" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Local server</text>
+<text x="707.0" y="153.5" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">files, git</text>
+<rect x="562" y="214" width="284" height="76" rx="12" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.8"/>
+<rect x="562" y="214" width="6" height="76" rx="3" fill="#D6408F"/>
+<text x="707.0" y="244.2" font-size="14" font-weight="700" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Remote server</text>
+<text x="707.0" y="257.5" font-size="11.5" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">a SaaS API</text>
+<text x="704.0" y="310.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">each exposes: tools · resources · prompts</text>
+<rect x="30" y="344" width="396" height="190" rx="16" fill="#FDE8E6" fill-opacity="0.45" stroke="#D0443A" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="46.0" y="362.0" font-size="12.5" font-weight="700" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Without MCP · M × N integrations</text>
+<rect x="450" y="344" width="396" height="190" rx="16" fill="#E8F5E1" fill-opacity="0.45" stroke="#3E8E2F" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="466.0" y="362.0" font-size="12.5" font-weight="700" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">With MCP · M + N</text>
+<line x1="118" y1="398" x2="332" y2="398" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="118" y1="398" x2="332" y2="443" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="118" y1="398" x2="332" y2="488" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="538" y1="398" x2="632" y2="443" stroke="#3E8E2F" stroke-opacity="0.7" stroke-width="1.6"/>
+<line x1="672" y1="443" x2="744" y2="398" stroke="#3E8E2F" stroke-opacity="0.7" stroke-width="1.6"/>
+<line x1="118" y1="443" x2="332" y2="398" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="118" y1="443" x2="332" y2="443" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="118" y1="443" x2="332" y2="488" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="538" y1="443" x2="632" y2="443" stroke="#3E8E2F" stroke-opacity="0.7" stroke-width="1.6"/>
+<line x1="672" y1="443" x2="744" y2="443" stroke="#3E8E2F" stroke-opacity="0.7" stroke-width="1.6"/>
+<line x1="118" y1="488" x2="332" y2="398" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="118" y1="488" x2="332" y2="443" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="118" y1="488" x2="332" y2="488" stroke="#D0443A" stroke-opacity="0.55" stroke-width="1.6"/>
+<line x1="538" y1="488" x2="632" y2="443" stroke="#3E8E2F" stroke-opacity="0.7" stroke-width="1.6"/>
+<line x1="672" y1="443" x2="744" y2="488" stroke="#3E8E2F" stroke-opacity="0.7" stroke-width="1.6"/>
+<rect x="54.0" y="384.0" width="64" height="28" rx="14.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="86.0" y="398.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">App</text>
+<rect x="332.0" y="384.0" width="64" height="28" rx="14.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="364.0" y="398.0" font-size="12" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tool</text>
+<rect x="474.0" y="384.0" width="64" height="28" rx="14.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="506.0" y="398.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">App</text>
+<rect x="744.0" y="384.0" width="84" height="28" rx="14.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="786.0" y="398.0" font-size="12" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Server</text>
+<rect x="54.0" y="429.0" width="64" height="28" rx="14.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="86.0" y="443.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">App</text>
+<rect x="332.0" y="429.0" width="64" height="28" rx="14.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="364.0" y="443.0" font-size="12" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tool</text>
+<rect x="474.0" y="429.0" width="64" height="28" rx="14.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="506.0" y="443.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">App</text>
+<rect x="744.0" y="429.0" width="84" height="28" rx="14.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="786.0" y="443.0" font-size="12" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Server</text>
+<rect x="54.0" y="474.0" width="64" height="28" rx="14.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="86.0" y="488.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">App</text>
+<rect x="332.0" y="474.0" width="64" height="28" rx="14.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="364.0" y="488.0" font-size="12" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tool</text>
+<rect x="474.0" y="474.0" width="64" height="28" rx="14.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="506.0" y="488.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">App</text>
+<rect x="744.0" y="474.0" width="84" height="28" rx="14.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="786.0" y="488.0" font-size="12" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Server</text>
+<rect x="628" y="383" width="48" height="120" rx="14" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="652.0" y="443.0" font-size="12" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MCP</text>
+<text x="228.0" y="516.0" font-size="11" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">every app re-integrates every tool</text>
+<text x="648.0" y="516.0" font-size="11" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">each app speaks MCP once; each tool is wrapped once</text>
+</svg>

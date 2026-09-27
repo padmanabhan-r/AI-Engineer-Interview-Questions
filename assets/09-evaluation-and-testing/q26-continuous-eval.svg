@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img" aria-label="Continuous evaluation in production">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="478" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Continuous evaluation in production</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Run the offline scorers on live traffic, alert per slice, and feed what humans confirm back into the golden set.</text>
+<rect x="30.0" y="200.0" width="96" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="78.0" y="220.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Traffic</text>
+<path d="M126.0,220.0 L150.0,220.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<path d="M152.0,190.0 L152.0,250.0 A52.0,9 0 0 0 256.0,250.0 L256.0,190.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="204" cy="190.0" rx="52.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="204.0" y="225.0" font-size="13" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Traces</text>
+<path d="M256.0,208.0 L270.0,208.0 L270.0,128.0 L288.0,128.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M256.0,220.0 L288.0,220.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<path d="M256.0,232.0 L270.0,232.0 L270.0,312.0 L288.0,312.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="290" y="98" width="136" height="60" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="290" y="98" width="6" height="60" rx="3" fill="#667085"/>
+<text x="361.0" y="112.5" font-size="13" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Sampler</text>
+<text x="361.0" y="124.8" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">random +</text>
+<text x="361.0" y="140.3" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">risk-weighted</text>
+<path d="M426.0,128.0 L448.0,128.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<rect x="450" y="98" width="150" height="60" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="450" y="98" width="6" height="60" rx="3" fill="#6D4AE0"/>
+<text x="528.0" y="112.5" font-size="13" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Checks + judges</text>
+<text x="528.0" y="124.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">same scorers</text>
+<text x="528.0" y="140.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">as offline</text>
+<rect x="290" y="190" width="310" height="60" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="290" y="190" width="6" height="60" rx="3" fill="#2F6FE4"/>
+<text x="448.0" y="212.2" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">User signals</text>
+<text x="448.0" y="224.6" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">e.g. negative feedback</text>
+<rect x="290" y="282" width="310" height="60" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="290" y="282" width="6" height="60" rx="3" fill="#C98A06"/>
+<text x="448.0" y="304.2" font-size="13" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Drift monitors</text>
+<text x="448.0" y="316.6" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">inputs and scores over time</text>
+<text x="525.0" y="82.0" font-size="11" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">deterministic checks: all traffic · judges: the sample</text>
+<path d="M600.0,128.0 L642.0,128.0 L642.0,220.0 L688.0,220.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<path d="M600.0,220.0 L688.0,220.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<path d="M600.0,312.0 L642.0,312.0 L642.0,220.0 L688.0,220.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<polygon points="722.0,188.0 818.0,188.0 850.0,220.0 818.0,252.0 722.0,252.0 690.0,220.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<text x="770.0" y="220.0" font-size="13" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Alerts per slice</text>
+<text x="770.0" y="266.0" font-size="11" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">with CIs + minimum sample</text>
+<path d="M770.0,276.0 L770.0,372.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<rect x="690" y="374" width="160" height="60" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="690" y="374" width="6" height="60" rx="3" fill="#1F3864"/>
+<text x="773.0" y="396.2" font-size="13" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human review</text>
+<text x="773.0" y="408.6" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">confirm failures</text>
+<path d="M690.0,404.0 L512.0,404.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<path d="M394.0,374.0 L394.0,434.0 A58.0,9 0 0 0 510.0,434.0 L510.0,374.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<ellipse cx="452" cy="374.0" rx="58.0" ry="9" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="452.0" y="409.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Golden set</text>
+<text x="380.0" y="394.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">nightly golden-set runs catch</text>
+<text x="380.0" y="412.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">silent provider updates</text>
+<text x="32.0" y="460.0" font-size="11.5" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Minimum viable: traces, a daily groundedness check on a sample, weekly review of 50 flagged traces.</text>
+</svg>

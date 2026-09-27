@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 590" width="900" height="590" role="img" aria-label="Contain injection by design, not detection">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><marker id="mD6408F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D6408F"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="588" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Contain injection by design, not detection</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The model that reads untrusted content holds no tools; its outputs are tainted values that policy keeps away from sensitive sinks.</text>
+<rect x="30" y="84" width="440" height="186" rx="16" fill="#E8F5E1" fill-opacity="0.45" stroke="#3E8E2F" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="46.0" y="102.0" font-size="12.5" font-weight="700" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">TRUSTED · privileged</text>
+<rect x="36.0" y="132.0" width="148" height="40" rx="20.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="110.0" y="152.0" font-size="12" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Trusted request</text>
+<path d="M184.0,152.0 L206.0,152.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="208" y="118" width="228" height="68" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="208" y="118" width="6" height="68" rx="3" fill="#6D4AE0"/>
+<text x="325.0" y="144.2" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Planner LLM</text>
+<text x="325.0" y="157.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">sees only the request; has tools</text>
+<path d="M322.0,186.0 L322.0,206.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="208" y="208" width="228" height="44" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="208" y="208" width="6" height="44" rx="3" fill="#667085"/>
+<text x="325.0" y="230.0" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Plan as code</text>
+<rect x="30" y="300" width="440" height="170" rx="16" fill="#FDE8E6" fill-opacity="0.45" stroke="#D0443A" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="46.0" y="318.0" font-size="12.5" font-weight="700" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">UNTRUSTED · quarantined</text>
+<path d="M47.0,359.0 L47.0,425.0 A59.0,9 0 0 0 165.0,425.0 L165.0,359.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<ellipse cx="106" cy="359.0" rx="59.0" ry="9" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<text x="106.0" y="397.0" font-size="12.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Content</text>
+<text x="106.0" y="412.0" font-size="10.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">emails, web, docs</text>
+<path d="M166.0,392.0 L206.0,392.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<rect x="208" y="358" width="228" height="68" rx="12" fill="#FDE9F3" stroke="#D6408F" stroke-width="1.8"/>
+<rect x="208" y="358" width="6" height="68" rx="3" fill="#D6408F"/>
+<text x="325.0" y="384.2" font-size="14" font-weight="700" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Quarantined LLM</text>
+<text x="325.0" y="397.5" font-size="11.5" font-weight="400" fill="#8A1F58" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">reads the content, has no tools</text>
+<path d="M436.0,230.0 L574.0,230.0 L574.0,278.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M436.0,392.0 L540.0,392.0 L540.0,346.0" fill="none" stroke="#D6408F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD6408F)"/>
+<text x="552.0" y="392.0" font-size="11" font-weight="600" fill="#8A1F58" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">typed, tainted values</text>
+<polygon points="508.0,280.0 640.0,280.0 672.0,312.0 640.0,344.0 508.0,344.0 476.0,312.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="574.0" y="304.2" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Interpreter + policy</text>
+<text x="574.0" y="319.9" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">(CaMeL taint tracking)</text>
+<path d="M672,312 H690" fill="none" stroke="#667085" stroke-width="2"/>
+<path d="M690.0,312.0 L690.0,204.0 L710.0,204.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="698.0" y="256.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">allowed</text>
+<rect x="712" y="174" width="158" height="60" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="712" y="174" width="6" height="60" rx="3" fill="#3E8E2F"/>
+<text x="794.0" y="196.2" font-size="13.5" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tool calls</text>
+<text x="794.0" y="209.1" font-size="11.5" font-weight="400" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">run as planned</text>
+<path d="M690.0,312.0 L690.0,432.0 L710.0,432.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<text x="698.0" y="360.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tainted →</text>
+<text x="698.0" y="376.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">sensitive sink</text>
+<rect x="712" y="402" width="158" height="60" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="712" y="402" width="6" height="60" rx="3" fill="#D0443A"/>
+<text x="794.0" y="424.2" font-size="13.5" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Block or ask</text>
+<text x="794.0" y="437.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">a human, exact params</text>
+<rect x="30" y="494" width="840" height="76" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="46.0" y="512.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Close the exfiltration channels</text>
+<rect x="48" y="522" width="178" height="28" rx="14" fill="#FFFFFF" stroke="#667085"/>
+<text x="137.0" y="536.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">egress allowlist</text>
+<rect x="238" y="522" width="248" height="28" rx="14" fill="#FFFFFF" stroke="#667085"/>
+<text x="362.0" y="536.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">never auto-render model images</text>
+<rect x="498" y="522" width="184" height="28" rx="14" fill="#FFFFFF" stroke="#667085"/>
+<text x="590.0" y="536.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">least privilege: no send</text>
+<text x="698.0" y="536.0" font-size="11" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">gate outbound after reading</text>
+</svg>

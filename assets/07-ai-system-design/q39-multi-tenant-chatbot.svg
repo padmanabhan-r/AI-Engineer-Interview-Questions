@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-label="A multi-tenant chatbot platform">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="558" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A multi-tenant chatbot platform</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">One shared runtime, per-tenant config; the tenant ID comes from auth and scopes every call, never from the model.</text>
+<rect x="36" y="86" width="172" height="56" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="36" y="86" width="6" height="56" rx="3" fill="#667085"/>
+<text x="125.0" y="106.2" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Channels</text>
+<text x="125.0" y="119.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">widget, WhatsApp, Slack</text>
+<path d="M208.0,114.0 L232.0,114.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<polygon points="262.0,86.0 406.0,86.0 434.0,114.0 406.0,142.0 262.0,142.0 234.0,114.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<text x="334.0" y="114.0" font-size="13" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tenant ID from auth</text>
+<text x="334.0" y="154.0" font-size="11" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">API key or domain</text>
+<path d="M434.0,114.0 L462.0,114.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<polygon points="493.0,86.0 587.0,86.0 615.0,114.0 587.0,142.0 493.0,142.0 465.0,114.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="540.0" y="105.9" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Per-tenant</text>
+<text x="540.0" y="122.2" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">quotas</text>
+<path d="M540.0,142.0 L540.0,188.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="360" y="190" width="220" height="62" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="360" y="190" width="6" height="62" rx="3" fill="#2F6FE4"/>
+<text x="473.0" y="213.2" font-size="14" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Shared orchestrator</text>
+<text x="473.0" y="226.5" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">one runtime, all tenants</text>
+<path d="M91.0,199.0 L91.0,243.0 A95.0,9 0 0 0 281.0,243.0 L281.0,199.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="186" cy="199.0" rx="95.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="186.0" y="226.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tenant config (versioned)</text>
+<text x="186.0" y="266.0" font-size="11" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">persona, instructions, knowledge, tools</text>
+<path d="M281.0,221.0 L358.0,221.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<polygon points="649.0,193.0 803.0,193.0 831.0,221.0 803.0,249.0 649.0,249.0 621.0,221.0" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<text x="726.0" y="221.0" font-size="13" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Platform guardrails</text>
+<text x="726.0" y="261.0" font-size="11" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tenants cannot override</text>
+<path d="M621.0,221.0 L582.0,221.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<path d="M470,252 V292 M140,292 H768" stroke="#1F3864" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M140.0,292.0 L140.0,314.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<path d="M352.0,292.0 L352.0,314.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<path d="M562.0,292.0 L562.0,314.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<path d="M768.0,292.0 L768.0,314.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="40" y="316" width="200" height="60" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="40" y="316" width="6" height="60" rx="3" fill="#0E8C7E"/>
+<text x="143.0" y="338.2" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Retrieval</text>
+<text x="143.0" y="351.1" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">mandatory tenant filter</text>
+<rect x="254" y="316" width="196" height="60" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="254" y="316" width="6" height="60" rx="3" fill="#C98A06"/>
+<text x="355.0" y="338.2" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tenant tools</text>
+<text x="355.0" y="351.1" font-size="11.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">vault credentials</text>
+<rect x="464" y="316" width="196" height="60" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="464" y="316" width="6" height="60" rx="3" fill="#6D4AE0"/>
+<text x="565.0" y="338.2" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Model gateway</text>
+<text x="565.0" y="351.1" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">fair queuing</text>
+<rect x="674" y="316" width="188" height="60" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="674" y="316" width="6" height="60" rx="3" fill="#667085"/>
+<text x="771.0" y="338.2" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Metering</text>
+<text x="771.0" y="351.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">per-tenant billing</text>
+<text x="484.0" y="280.0" font-size="11.5" font-weight="700" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">every call carries tenant_id</text>
+<path d="M140.0,376.0 L140.0,410.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<rect x="24" y="398" width="500" height="138" rx="16" fill="#E3F6F2" fill-opacity="0.45" stroke="#0E8C7E" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="44.0" y="426.0" font-size="12" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Small tenants: a namespace each</text>
+<path d="M47.0,463.0 L47.0,501.0 A27.0,9 0 0 0 101.0,501.0 L101.0,463.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="74" cy="463.0" rx="27.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="74.0" y="487.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">A</text>
+<path d="M113.0,463.0 L113.0,501.0 A27.0,9 0 0 0 167.0,501.0 L167.0,463.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="140" cy="463.0" rx="27.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="140.0" y="487.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">B</text>
+<path d="M179.0,463.0 L179.0,501.0 A27.0,9 0 0 0 233.0,501.0 L233.0,463.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<ellipse cx="206" cy="463.0" rx="27.0" ry="9" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<text x="206.0" y="487.0" font-size="12.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">C</text>
+<text x="262.0" y="488.0" font-size="16" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">…</text>
+<text x="300.0" y="426.0" font-size="12" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Large or regulated</text>
+<path d="M306.0,463.0 L306.0,501.0 A94.0,9 0 0 0 494.0,501.0 L494.0,463.0" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<ellipse cx="400" cy="463.0" rx="94.0" ry="9" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<text x="400.0" y="487.0" font-size="12.5" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Dedicated index</text>
+<text x="400.0" y="522.0" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">own capacity or region, priced</text>
+<rect x="544" y="398" width="332" height="138" rx="16" fill="#FDE8E6" fill-opacity="0.45" stroke="#D0443A" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="560.0" y="416.0" font-size="12.5" font-weight="700" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Close the leak paths</text>
+<text x="564.0" y="446.0" font-size="12" font-weight="400" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">•  No tenant ID taken from prompts or tool args</text>
+<text x="564.0" y="476.0" font-size="12" font-weight="400" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">•  tenant_id in every cache key and log</text>
+<text x="564.0" y="506.0" font-size="12" font-weight="400" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">•  Tenant test set on every config change</text>
+</svg>

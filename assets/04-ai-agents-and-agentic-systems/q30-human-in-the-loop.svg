@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 556" width="900" height="556" role="img" aria-label="Human-in-the-loop: pause, checkpoint, resume">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="554" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Human-in-the-loop: pause, checkpoint, resume</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Policy stops a costly action, the state is saved, and the person&#x27;s decision comes back as the pending call&#x27;s result.</text>
+<rect x="34" y="84" width="132" height="40" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="34" y="84" width="6" height="40" rx="3" fill="#6D4AE0"/>
+<text x="103.0" y="104.0" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Agent</text>
+<line x1="100" y1="124" x2="100" y2="440" stroke="#6D4AE0" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<rect x="239" y="84" width="132" height="40" rx="12" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<rect x="239" y="84" width="6" height="40" rx="3" fill="#C98A06"/>
+<text x="308.0" y="104.0" font-size="13.5" font-weight="700" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Harness</text>
+<line x1="305" y1="124" x2="305" y2="440" stroke="#C98A06" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<rect x="444" y="84" width="132" height="40" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="444" y="84" width="6" height="40" rx="3" fill="#1F3864"/>
+<text x="513.0" y="104.0" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human</text>
+<line x1="510" y1="124" x2="510" y2="440" stroke="#1F3864" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<path d="M106.0,160.0 L297.0,160.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="202.5" y="148.0" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">issue_refund(480 USD)</text>
+<polygon points="227.0,188.0 383.0,188.0 403.0,208.0 383.0,228.0 227.0,228.0 207.0,208.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="305.0" y="208.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">policy: over 200 needs approval</text>
+<rect x="223.0" y="245.0" width="164" height="34" rx="17.0" fill="#F2F4F7" stroke="#667085" stroke-width="1.6"/>
+<text x="305.0" y="262.0" font-size="12" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">checkpoint state</text>
+<text x="397.0" y="262.0" font-size="10.5" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">process can exit;</text>
+<text x="397.0" y="276.0" font-size="10.5" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">hours later is fine</text>
+<path d="M311.0,318.0 L502.0,318.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="407.5" y="306.0" font-size="11.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">approve? exact params + reason</text>
+<path d="M504.0,364.0 L313.0,364.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#m1F3864)"/>
+<text x="407.5" y="352.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">edit to 300 USD</text>
+<path d="M299.0,414.0 L108.0,414.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="202.5" y="402.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">resume: decision as tool result</text>
+<rect x="598" y="84" width="272" height="356" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="614.0" y="102.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Tier by reversibility, blast radius</text>
+<defs><linearGradient id="risk" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#3E8E2F"/><stop offset="0.5" stop-color="#C98A06"/><stop offset="1" stop-color="#D0443A"/></linearGradient></defs>
+<rect x="620" y="126" width="14" height="284" rx="7" fill="url(#risk)"/>
+<text x="648.0" y="140.0" font-size="12" font-weight="700" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">irreversible, large</text>
+<text x="648.0" y="157.0" font-size="11" font-weight="400" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">approval always, or disallowed</text>
+<path d="M638,268 L650,261 L650,275 Z" fill="#C98A06"/>
+<text x="656.0" y="260.0" font-size="12" font-weight="700" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">refund over 200 USD</text>
+<text x="656.0" y="277.0" font-size="11" font-weight="400" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">pause for approval</text>
+<text x="648.0" y="380.0" font-size="12" font-weight="700" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">reversible, small</text>
+<text x="648.0" y="397.0" font-size="11" font-weight="400" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">runs autonomously</text>
+<text x="734.0" y="426.0" font-size="10.5" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">also: regulated decisions, low confidence</text>
+<rect x="30" y="462" width="840" height="70" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="30" y="462" width="6" height="70" rx="3" fill="#D0443A"/>
+<text x="453.0" y="481.5" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Pitfall: approval fatigue</text>
+<text x="453.0" y="493.8" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">asked 200 times a day, people rubber-stamp</text>
+<text x="453.0" y="509.4" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">keep approvals rare, show exact parameters and the reason, track approval and edit rates</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Support agent with escalation">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="598" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Support agent with escalation</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A bounded agent inside a graph; code enforces the escalation triggers. Optimize for correct escalation, not maximum containment.</text>
+<rect x="210.0" y="85.0" width="180" height="38" rx="19.0" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.6"/>
+<text x="300.0" y="104.0" font-size="12.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Customer message</text>
+<path d="M300.0,123.0 L300.0,146.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<polygon points="233.0,147.0 367.0,147.0 390.0,170.0 367.0,193.0 233.0,193.0 210.0,170.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="300.0" y="170.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Verify identity</text>
+<text x="402.0" y="170.0" font-size="11" font-weight="400" fill="#7A5300" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">then scope every account tool to that ID</text>
+<path d="M300.0,193.0 L300.0,214.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<polygon points="300,214.0 385.0,250 300,286.0 215.0,250" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<text x="300.0" y="250.0" font-size="12.5" font-weight="600" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Triage</text>
+<text x="208.0" y="250.0" font-size="11" font-weight="400" fill="#344054" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">intent · risk · sentiment</text>
+<path d="M385.0,250.0 L618.0,250.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<text x="502.0" y="238.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">high risk, or asks for a human</text>
+<path d="M300.0,286.0 L300.0,318.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<text x="310.0" y="302.0" font-size="11.5" font-weight="600" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">in scope</text>
+<rect x="200" y="320" width="200" height="60" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="200" y="320" width="6" height="60" rx="3" fill="#6D4AE0"/>
+<text x="303.0" y="342.2" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Agent</text>
+<text x="303.0" y="355.5" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">KB retrieval + scoped tools</text>
+<path d="M300.0,380.0 L300.0,408.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<polygon points="300,409.0 395.0,444 300,479.0 205.0,444" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="300.0" y="444.0" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Action over limit?</text>
+<path d="M205.0,444.0 L152.0,444.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<text x="180.0" y="432.0" font-size="11.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">yes</text>
+<rect x="30" y="414" width="120" height="60" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="30" y="414" width="6" height="60" rx="3" fill="#1F3864"/>
+<text x="93.0" y="435.9" font-size="13" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human</text>
+<text x="93.0" y="452.2" font-size="13" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">approval</text>
+<path d="M90.0,414.0 L90.0,350.0 L198.0,350.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<path d="M300.0,479.0 L300.0,512.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="310.0" y="495.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no</text>
+<polygon points="234.0,514.0 366.0,514.0 390.0,538.0 366.0,562.0 234.0,562.0 210.0,538.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="300.0" y="538.0" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Grounded check</text>
+<text x="300.0" y="574.0" font-size="10.5" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">policy answers must cite passages</text>
+<path d="M210.0,538.0 L152.0,538.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="182.0" y="526.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">pass</text>
+<rect x="30.0" y="519.0" width="120" height="38" rx="19.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="90.0" y="538.0" font-size="13" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Reply</text>
+<path d="M390.0,538.0 L745.0,538.0 L745.0,434.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<text x="560.0" y="526.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">fails twice, or no progress</text>
+<rect x="620" y="222" width="250" height="210" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="620" y="222" width="6" height="210" rx="3" fill="#1F3864"/>
+<text x="748.0" y="327.0" font-size="14" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1"></text>
+<text x="748.0" y="248.0" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Escalate with a handoff</text>
+<text x="646.0" y="276.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.9">summary of the issue</text>
+<text x="646.0" y="297.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.9">identity status</text>
+<text x="646.0" y="318.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.9">steps tried + tool results</text>
+<text x="646.0" y="339.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.9">sentiment</text>
+<text x="646.0" y="360.0" font-size="11.5" font-weight="600" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.9">→ ticket queue, with priority</text>
+<text x="646.0" y="381.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.9">tell the customer what&#x27;s next</text>
+<text x="646.0" y="402.0" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.9">agent stops replying</text>
+</svg>

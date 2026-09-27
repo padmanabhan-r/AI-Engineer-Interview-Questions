@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="Output parser: raw text in, typed object out">
+<defs><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="498" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Output parser: raw text in, typed object out</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">It is the boundary between a probabilistic generator and deterministic code: parse, validate, or fail loudly.</text>
+<rect x="26.0" y="126.0" width="116" height="40" rx="20.0" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="84.0" y="146.0" font-size="13" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Raw text</text>
+<path d="M142.0,146.0 L170.0,146.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="172" y="114" width="156" height="64" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="172" y="114" width="6" height="64" rx="3" fill="#2F6FE4"/>
+<text x="253.0" y="138.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Extract</text>
+<text x="253.0" y="151.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">strip fences, preamble</text>
+<path d="M328.0,146.0 L350.0,146.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="352" y="114" width="160" height="64" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="352" y="114" width="6" height="64" rx="3" fill="#2F6FE4"/>
+<text x="435.0" y="138.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Parse + coerce</text>
+<text x="435.0" y="151.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">dates, numbers, enums</text>
+<path d="M512.0,146.0 L540.0,146.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<polygon points="604,104.0 666.0,146 604,188.0 542.0,146" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="604.0" y="146.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Valid?</text>
+<text x="604.0" y="84.0" font-size="11" font-weight="400" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">required fields, ranges, business rules</text>
+<path d="M666.0,146.0 L724.0,146.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="695.0" y="136.0" font-size="11.5" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">yes</text>
+<rect x="726.0" y="126.0" width="140" height="40" rx="20.0" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.6"/>
+<text x="796.0" y="146.0" font-size="13" font-weight="600" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Typed object</text>
+<path d="M604.0,188.0 L604.0,250.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<text x="614.0" y="218.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no</text>
+<rect x="540" y="252" width="264" height="62" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="540" y="252" width="6" height="62" rx="3" fill="#D0443A"/>
+<text x="675.0" y="267.5" font-size="13.5" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Recover</text>
+<text x="675.0" y="280.3" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">retry with the error, a cheap repair</text>
+<text x="675.0" y="295.8" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">call, or a fallback plus an alert</text>
+<path d="M540.0,283.0 L84.0,283.0 L84.0,168.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD0443A)"/>
+<text x="310.0" y="272.0" font-size="11.5" font-weight="600" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">retry: send the error back to the model</text>
+<rect x="28" y="350" width="250" height="124" rx="10" fill="#FFFFFF" stroke="#6D4AE0" stroke-width="1.4"/>
+<text x="42.0" y="368.0" font-size="11.5" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">the model wrote</text>
+<text x="42.0" y="392.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">Sure! Here is the order:</text>
+<text x="42.0" y="409.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">```json</text>
+<text x="42.0" y="426.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">{&quot;order_id&quot;: &quot;A-17&quot;,</text>
+<text x="42.0" y="443.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1"> &quot;date&quot;: &quot;3 March 2025&quot;}</text>
+<text x="42.0" y="460.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">```</text>
+<path d="M278.0,412.0 L318.0,412.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="298.0" y="398.0" font-size="11" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">parse</text>
+<rect x="320" y="350" width="250" height="124" rx="10" fill="#FFFFFF" stroke="#3E8E2F" stroke-width="1.4"/>
+<text x="334.0" y="368.0" font-size="11.5" font-weight="700" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">your code gets</text>
+<text x="334.0" y="392.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">Order(</text>
+<text x="334.0" y="409.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">  order_id=&quot;A-17&quot;,</text>
+<text x="334.0" y="426.0" font-size="11" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">  date=date(2025, 3, 3))</text>
+<rect x="600" y="350" width="276" height="56" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="600" y="350" width="6" height="56" rx="3" fill="#D0443A"/>
+<text x="741.0" y="370.2" font-size="12.5" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Valid syntax is not a true value</text>
+<text x="741.0" y="382.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">a well-formed order_id may not exist</text>
+<rect x="600" y="418" width="276" height="56" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="600" y="418" width="6" height="56" rx="3" fill="#667085"/>
+<text x="741.0" y="438.2" font-size="12.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Watch the parse-failure rate</text>
+<text x="741.0" y="450.1" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">per prompt and model version</text>
+</svg>

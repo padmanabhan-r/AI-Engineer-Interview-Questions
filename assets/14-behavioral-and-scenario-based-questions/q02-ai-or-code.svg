@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 610" width="900" height="610" role="img" aria-label="AI or conventional code?">
+<defs><marker id="m0E8C7E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E8C7E"/></marker><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="m6D4AE0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4AE0"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="608" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">AI or conventional code?</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Default to code. Reach for an LLM only when rules can&#x27;t be written, errors are tolerable or catchable, and value beats cost.</text>
+<rect x="30" y="80" width="840" height="44" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="30" y="80" width="6" height="44" rx="3" fill="#667085"/>
+<text x="453.0" y="102.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">First: can anyone say what a correct output looks like? If not, no solution is ready.</text>
+<polygon points="190,150.0 305.0,190 190,230.0 75.0,190" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="190.0" y="182.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Rules writable</text>
+<text x="190.0" y="197.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">and maintainable?</text>
+<polygon points="190,250.0 305.0,290 190,330.0 75.0,290" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="190.0" y="282.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Input</text>
+<text x="190.0" y="297.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">unstructured?</text>
+<polygon points="190,350.0 305.0,390 190,430.0 75.0,390" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="190.0" y="382.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Errors tolerable</text>
+<text x="190.0" y="397.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">or catchable?</text>
+<polygon points="190,450.0 305.0,490 190,530.0 75.0,490" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="190.0" y="482.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Value exceeds</text>
+<text x="190.0" y="497.6" font-size="12" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">cost?</text>
+<path d="M190.0,124.0 L190.0,148.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M190.0,230.0 L190.0,248.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M190.0,330.0 L190.0,348.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<path d="M190.0,430.0 L190.0,448.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<text x="200.0" y="240.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no</text>
+<text x="200.0" y="340.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">yes</text>
+<text x="200.0" y="440.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">yes</text>
+<text x="200.0" y="540.0" font-size="11.5" font-weight="600" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">yes</text>
+<path d="M305.0,190.0 L378.0,190.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="342.0" y="178.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">yes</text>
+<rect x="380" y="166" width="210" height="48" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="380" y="166" width="6" height="48" rx="3" fill="#2F6FE4"/>
+<text x="488.0" y="190.0" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Code</text>
+<path d="M305.0,290.0 L378.0,290.0" fill="none" stroke="#0E8C7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m0E8C7E)"/>
+<text x="342.0" y="278.0" font-size="11.5" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no, tabular</text>
+<rect x="380" y="266" width="210" height="48" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="380" y="266" width="6" height="48" rx="3" fill="#0E8C7E"/>
+<text x="488.0" y="290.0" font-size="13" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Classical ML</text>
+<path d="M305.0,390.0 L378.0,390.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<text x="342.0" y="378.0" font-size="11.5" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no</text>
+<rect x="380" y="366" width="210" height="48" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="380" y="366" width="6" height="48" rx="3" fill="#1F3864"/>
+<text x="488.0" y="390.0" font-size="13" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human decides, AI assists</text>
+<path d="M305.0,490.0 L378.0,490.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<text x="342.0" y="478.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">no</text>
+<rect x="380" y="466" width="210" height="48" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="380" y="466" width="6" height="48" rx="3" fill="#2F6FE4"/>
+<text x="488.0" y="490.0" font-size="13" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Code</text>
+<path d="M190.0,530.0 L190.0,552.0" fill="none" stroke="#6D4AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m6D4AE0)"/>
+<rect x="65.0" y="554.0" width="250" height="40" rx="20.0" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="190.0" y="574.0" font-size="13" font-weight="600" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLM component with evals</text>
+<rect x="620" y="150" width="250" height="340" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="636.0" y="168.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Usually a hybrid</text>
+<rect x="640" y="196" width="210" height="44" rx="10" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="656.0" y="218.0" font-size="11" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">code</text>
+<text x="708.0" y="218.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">validation</text>
+<rect x="640" y="252" width="210" height="64" rx="10" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.6"/>
+<text x="656.0" y="284.0" font-size="11" font-weight="700" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">model</text>
+<text x="708.0" y="276.9" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">the one judgement step,</text>
+<text x="708.0" y="291.2" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">e.g. read a free-text email</text>
+<rect x="640" y="328" width="210" height="44" rx="10" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="656.0" y="350.0" font-size="11" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">code</text>
+<text x="708.0" y="350.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">permissions</text>
+<rect x="640" y="384" width="210" height="44" rx="10" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="656.0" y="406.0" font-size="11" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">code</text>
+<text x="708.0" y="406.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">calculations</text>
+<text x="745.0" y="466.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-style="italic" opacity="1">the panel is testing restraint</text>
+</svg>

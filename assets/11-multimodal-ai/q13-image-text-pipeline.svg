@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Images + text: a pipeline, not one call">
+<defs><marker id="m1F3864" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F3864"/></marker><marker id="m3E8E2F" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E2F"/></marker><marker id="m667085" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#667085"/></marker><marker id="mC98A06" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C98A06"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="418" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Images + text: a pipeline, not one call</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Route each image to the cheapest capable component, then validate before anything is automated.</text>
+<rect x="24" y="180" width="100" height="60" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="24" y="180" width="6" height="60" rx="3" fill="#1F3864"/>
+<text x="77.0" y="202.2" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Inputs</text>
+<text x="77.0" y="215.1" font-size="11.5" font-weight="400" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">photos, text</text>
+<path d="M124.0,210.0 L142.0,210.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<rect x="144" y="175" width="160" height="70" rx="12" fill="#F2F4F7" stroke="#667085" stroke-width="1.8"/>
+<rect x="144" y="175" width="6" height="70" rx="3" fill="#667085"/>
+<text x="227.0" y="194.5" font-size="13.5" font-weight="700" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Normalize</text>
+<text x="227.0" y="207.3" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">fix EXIF rotation,</text>
+<text x="227.0" y="222.8" font-size="11.5" font-weight="400" fill="#344054" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">strip location, resize</text>
+<polygon points="352,165.0 399.0,210 352,255.0 305.0,210" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="352.0" y="210.0" font-size="13" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Route</text>
+<path d="M352.0,165.0 L352.0,118.0 L444.0,118.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="400.0" y="107.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">document</text>
+<path d="M399.0,210.0 L444.0,210.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="421.0" y="199.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">simple</text>
+<path d="M352.0,255.0 L352.0,302.0 L444.0,302.0" fill="none" stroke="#C98A06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mC98A06)"/>
+<text x="400.0" y="291.0" font-size="11" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">scene</text>
+<rect x="446" y="90" width="150" height="56" rx="12" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.8"/>
+<rect x="446" y="90" width="6" height="56" rx="3" fill="#2F6FE4"/>
+<text x="524.0" y="110.2" font-size="13.5" font-weight="700" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">OCR + layout</text>
+<text x="524.0" y="123.1" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">text-heavy images</text>
+<rect x="446" y="182" width="150" height="56" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="446" y="182" width="6" height="56" rx="3" fill="#0E8C7E"/>
+<text x="524.0" y="202.2" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Classifier</text>
+<text x="524.0" y="215.1" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">small; simple checks</text>
+<rect x="446" y="270" width="150" height="64" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="446" y="270" width="6" height="64" rx="3" fill="#6D4AE0"/>
+<text x="524.0" y="287.1" font-size="13.5" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">VLM</text>
+<text x="524.0" y="300.0" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">JSON schema, enums,</text>
+<text x="524.0" y="314.8" font-size="11" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">a “not visible” option</text>
+<path d="M596.0,118.0 L616.0,118.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M596.0,210.0 L616.0,210.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M596.0,302.0 L616.0,302.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M616.0,118.0 L616.0,302.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M616.0,210.0 L668.0,210.0" fill="none" stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m667085)"/>
+<polygon points="705.0,175.0 775.0,175.0 810.0,210.0 775.0,245.0 705.0,245.0 670.0,210.0" fill="#FFF4D6" stroke="#C98A06" stroke-width="1.8"/>
+<text x="740.0" y="202.2" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Validate vs</text>
+<text x="740.0" y="217.9" font-size="12.5" font-weight="600" fill="#7A5300" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">text + rules</text>
+<path d="M740.0,175.0 L740.0,142.0" fill="none" stroke="#3E8E2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m3E8E2F)"/>
+<text x="750.0" y="160.0" font-size="11" font-weight="600" fill="#275C1C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">confident</text>
+<rect x="650" y="86" width="180" height="54" rx="12" fill="#E8F5E1" stroke="#3E8E2F" stroke-width="1.8"/>
+<rect x="650" y="86" width="6" height="54" rx="3" fill="#3E8E2F"/>
+<text x="743.0" y="113.0" font-size="13.5" font-weight="700" fill="#275C1C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Automated decision</text>
+<path d="M740.0,245.0 L740.0,278.0" fill="none" stroke="#1F3864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m1F3864)"/>
+<text x="750.0" y="262.0" font-size="11" font-weight="600" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">uncertain</text>
+<rect x="650" y="280" width="180" height="54" rx="12" fill="#E8EEF8" stroke="#1F3864" stroke-width="1.8"/>
+<rect x="650" y="280" width="6" height="54" rx="3" fill="#1F3864"/>
+<text x="743.0" y="307.0" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Human review</text>
+<text x="36.0" y="376.0" font-size="11.5" font-weight="400" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Cross-check the modalities: the claim text says rear bumper, the photo shows the front, so flag it.</text>
+<text x="36.0" y="396.0" font-size="11.5" font-weight="400" fill="#667085" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Trace every call: image version, prompt, model version and output; score each field on a labeled set.</text>
+</svg>

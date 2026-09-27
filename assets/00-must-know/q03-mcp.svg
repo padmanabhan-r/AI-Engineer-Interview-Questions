@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 524" width="880" height="524" role="img" aria-label="MCP: wrap a tool once, any host can use it">
+<defs><marker id="m2F6FE4" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F6FE4"/></marker><marker id="mD0443A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0443A"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F7FB"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="522" rx="18" fill="url(#bg)" stroke="#E4E7EC" stroke-width="1.5"/>
+<text x="28" y="36" font-size="18" font-weight="700" fill="#151A23" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">MCP: wrap a tool once, any host can use it</text>
+<text x="28" y="58" font-size="12.5" fill="#667085" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">The model still does ordinary function calling; MCP standardizes how tools are discovered and invoked.</text>
+<rect x="24" y="84" width="330" height="250" rx="16" fill="#E8EEF8" fill-opacity="0.45" stroke="#1F3864" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40.0" y="102.0" font-size="12.5" font-weight="700" fill="#1F3864" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">HOST · the AI app</text>
+<rect x="44" y="176" width="146" height="70" rx="12" fill="#F1ECFF" stroke="#6D4AE0" stroke-width="1.8"/>
+<rect x="44" y="176" width="6" height="70" rx="3" fill="#6D4AE0"/>
+<text x="120.0" y="195.5" font-size="14" font-weight="700" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">LLM</text>
+<text x="120.0" y="208.8" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">ordinary function</text>
+<text x="120.0" y="224.3" font-size="11.5" font-weight="400" fill="#3B2596" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">calling</text>
+<path d="M190.0,198.0 L224.0,160.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<path d="M190.0,224.0 L224.0,262.0" fill="none" stroke="#2F6FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#m2F6FE4)"/>
+<rect x="224.0" y="131.0" width="116" height="38" rx="19.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="282.0" y="150.0" font-size="12.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MCP client</text>
+<rect x="224.0" y="253.0" width="116" height="38" rx="19.0" fill="#E7F0FF" stroke="#2F6FE4" stroke-width="1.6"/>
+<text x="282.0" y="272.0" font-size="12.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MCP client</text>
+<text x="282.0" y="312.0" font-size="11" font-weight="600" fill="#1F3864" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">one client per server</text>
+<rect x="560" y="100" width="296" height="100" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="560" y="100" width="6" height="100" rx="3" fill="#0E8C7E"/>
+<text x="711.0" y="134.5" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MCP server · local</text>
+<text x="711.0" y="147.3" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85"></text>
+<text x="711.0" y="162.8" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85"></text>
+<rect x="572.0" y="153.0" width="76" height="26" rx="13.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="610.0" y="166.0" font-size="11" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tools</text>
+<rect x="656.0" y="153.0" width="100" height="26" rx="13.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="706.0" y="166.0" font-size="11" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">resources</text>
+<rect x="762.0" y="153.0" width="84" height="26" rx="13.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="804.0" y="166.0" font-size="11" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">prompts</text>
+<path d="M343,150 L556,150" fill="none" stroke="#2F6FE4" stroke-width="2" marker-start="url(#m2F6FE4)" marker-end="url(#m2F6FE4)"/>
+<text x="456.0" y="137.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">JSON-RPC 2.0 · stdio</text>
+<rect x="560" y="222" width="296" height="100" rx="12" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.8"/>
+<rect x="560" y="222" width="6" height="100" rx="3" fill="#0E8C7E"/>
+<text x="711.0" y="256.5" font-size="13.5" font-weight="700" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">MCP server · remote</text>
+<text x="711.0" y="269.3" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85"></text>
+<text x="711.0" y="284.8" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85"></text>
+<rect x="572.0" y="275.0" width="76" height="26" rx="13.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="610.0" y="288.0" font-size="11" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tools</text>
+<rect x="656.0" y="275.0" width="100" height="26" rx="13.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="706.0" y="288.0" font-size="11" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">resources</text>
+<rect x="762.0" y="275.0" width="84" height="26" rx="13.0" fill="#E3F6F2" stroke="#0E8C7E" stroke-width="1.6"/>
+<text x="804.0" y="288.0" font-size="11" font-weight="600" fill="#0A5A51" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">prompts</text>
+<path d="M343,272 L556,272" fill="none" stroke="#2F6FE4" stroke-width="2" marker-start="url(#m2F6FE4)" marker-end="url(#m2F6FE4)"/>
+<text x="456.0" y="259.0" font-size="11.5" font-weight="600" fill="#1B418C" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">JSON-RPC 2.0 · HTTP + OAuth</text>
+<text x="706.0" y="336.0" font-size="11" font-weight="400" fill="#667085" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">tools take JSON Schema args; resources are readable data</text>
+<rect x="24" y="354" width="832" height="150" rx="16" fill="#F2F4F7" fill-opacity="0.45" stroke="#667085" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="40.0" y="372.0" font-size="12.5" font-weight="700" fill="#344054" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">The exchange</text>
+<rect x="44" y="382" width="480" height="24" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-opacity="0.5"/>
+<text x="56.0" y="395.0" font-size="11.5" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">host → server</text>
+<text x="170.0" y="395.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">initialize, tools/list</text>
+<rect x="44" y="410" width="480" height="24" rx="7" fill="#E3F6F2" stroke="#0E8C7E" stroke-opacity="0.5"/>
+<text x="56.0" y="423.0" font-size="11.5" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">server → host</text>
+<text x="170.0" y="423.0" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">tool names + JSON Schemas</text>
+<rect x="44" y="438" width="480" height="24" rx="7" fill="#E7F0FF" stroke="#2F6FE4" stroke-opacity="0.5"/>
+<text x="56.0" y="451.0" font-size="11.5" font-weight="700" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">host → server</text>
+<text x="170.0" y="451.0" font-size="11.5" font-weight="400" fill="#1B418C" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">tools/call with arguments</text>
+<rect x="44" y="466" width="480" height="24" rx="7" fill="#E3F6F2" stroke="#0E8C7E" stroke-opacity="0.5"/>
+<text x="56.0" y="479.0" font-size="11.5" font-weight="700" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">server → host</text>
+<text x="170.0" y="479.0" font-size="11.5" font-weight="400" fill="#0A5A51" text-anchor="start" dominant-baseline="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" opacity="1">result, into the model&#x27;s context</text>
+<path d="M526.0,422.0 L560.0,422.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<path d="M526.0,478.0 L560.0,478.0" fill="none" stroke="#D0443A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mD0443A)"/>
+<rect x="562" y="404" width="274" height="88" rx="12" fill="#FDE8E6" stroke="#D0443A" stroke-width="1.8"/>
+<rect x="562" y="404" width="6" height="88" rx="3" fill="#D0443A"/>
+<text x="702.0" y="424.7" font-size="13" font-weight="700" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="1">Injection risk</text>
+<text x="702.0" y="437.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">descriptions and results enter the</text>
+<text x="702.0" y="452.6" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">context: an untrusted server can</text>
+<text x="702.0" y="468.1" font-size="11.5" font-weight="400" fill="#8E2A23" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" opacity="0.85">inject instructions</text>
+</svg>
